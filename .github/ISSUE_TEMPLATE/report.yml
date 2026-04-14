@@ -1,0 +1,57 @@
+name: Report
+description: 작업 리포트 (트러블슈팅, 회고, 조사 등)
+title: "[report] "
+labels: ["capture", "report"]
+body:
+  - type: dropdown
+    id: report_type
+    attributes:
+      label: 리포트 유형
+      options:
+        - troubleshooting
+        - retrospective
+        - research
+        - decision
+        - feedback
+    validations:
+      required: true
+
+  - type: input
+    id: source_repo
+    attributes:
+      label: 출처 레포
+      placeholder: 예) seo/some-project
+    validations:
+      required: false
+
+  - type: input
+    id: tags
+    attributes:
+      label: 태그
+      placeholder: 쉼표로 구분
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 배경/상황
+      description: 어떤 작업 중 어떤 문제/결정이 있었는가
+    validations:
+      required: true
+
+  - type: textarea
+    id: body
+    attributes:
+      label: 내용
+      description: 시도, 관찰, 결론, 교훈 등
+    validations:
+      required: true
+
+  - type: textarea
+    id: takeaway
+    attributes:
+      label: 교훈 / 다음에 적용할 점
+      description: agent/skill 개선에 반영할 포인트가 있다면 명시
+    validations:
+      required: false

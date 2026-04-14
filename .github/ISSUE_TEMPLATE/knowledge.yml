@@ -1,0 +1,46 @@
+name: Knowledge
+description: 재사용 가능한 지식 캡처 (개념, 패턴, 도구 사용법 등)
+title: "[knowledge] "
+labels: ["capture", "knowledge"]
+body:
+  - type: input
+    id: source_repo
+    attributes:
+      label: 출처 레포
+      description: 이 지식이 발생한 작업 레포 (owner/name)
+      placeholder: 예) seo/some-project
+    validations:
+      required: false
+
+  - type: input
+    id: tags
+    attributes:
+      label: 태그
+      description: 쉼표로 구분
+      placeholder: 예) python, asyncio, rag
+    validations:
+      required: false
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: 요약
+      description: 한 문단으로 핵심만
+    validations:
+      required: true
+
+  - type: textarea
+    id: body
+    attributes:
+      label: 본문
+      description: 마크다운 지원. 코드 블록, 링크 자유롭게.
+    validations:
+      required: true
+
+  - type: textarea
+    id: related
+    attributes:
+      label: 관련 노트/링크
+      description: 참고한 URL 또는 기존 노트 파일명
+    validations:
+      required: false

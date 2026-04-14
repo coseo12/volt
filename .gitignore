@@ -1,0 +1,19 @@
+# Obsidian 작업 상태 (사용자별, 기기별 정보)
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/appearance.json
+
+# Obsidian 휴지통
+.trash/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 편집기
+*.swp
+*.swo
+.vscode/
+.idea/
