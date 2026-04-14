@@ -39,3 +39,8 @@ tags: []
 related: []
 ---
 ```
+
+## 기여
+
+- 사람 기여자: [CONTRIBUTING.md](./CONTRIBUTING.md)
+- AI 에이전트(Claude Code 등): [AGENTS.md](./AGENTS.md)
