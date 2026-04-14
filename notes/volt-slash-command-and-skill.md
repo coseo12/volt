@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 8
 captured_at: 2026-04-14
-status: inbox
+status: refined
 tags: [claude-code, skill, slash-command, volt, portability]
 related:
   - https://github.com/coseo12/volt/blob/main/AGENTS.md
