@@ -4,7 +4,7 @@ type: pattern
 source_repo: coseo12/astro-simulator
 source_issue: 7
 captured_at: 2026-04-14
-status: inbox
+status: refined
 tags: [process, sprint-contract, retrospective, milestone]
 related: []
 ---

@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 6
 captured_at: 2026-04-14
-status: inbox
+status: refined
 tags: [physics, symplectic, nbody, numerical]
 related:
   - https://en.wikipedia.org/wiki/Verlet_integration

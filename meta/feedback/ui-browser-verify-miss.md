@@ -4,7 +4,7 @@ type: feedback
 source_repo: coseo12/astro-simulator
 source_issue: 1
 captured_at: 2026-04-14
-status: inbox
+status: refined
 tags: [process, browser-verify, p1-p2]
 related: []
 ---

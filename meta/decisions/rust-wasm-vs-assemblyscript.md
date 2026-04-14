@@ -4,7 +4,7 @@ type: decision
 source_repo: coseo12/astro-simulator
 source_issue: 5
 captured_at: 2026-04-14
-status: inbox
+status: refined
 tags: [wasm, rust, assemblyscript, performance]
 related: []
 ---

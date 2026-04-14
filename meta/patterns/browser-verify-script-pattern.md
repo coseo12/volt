@@ -4,7 +4,7 @@ type: pattern
 source_repo: coseo12/astro-simulator
 source_issue: 3
 captured_at: 2026-04-14
-status: inbox
+status: refined
 tags: [process, playwright, verify, milestone]
 related: []
 ---
