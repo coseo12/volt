@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 10
 captured_at: 2026-04-15
-status: inbox
+status: refined
 tags: [testing, gpu, webgpu, wgsl, ci]
 related:
   - https://github.com/coseo12/astro-simulator/pull/149

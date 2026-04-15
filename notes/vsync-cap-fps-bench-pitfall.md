@@ -4,7 +4,7 @@ type: report
 source_repo: coseo12/astro-simulator
 source_issue: 11
 captured_at: 2026-04-15
-status: inbox
+status: refined
 tags: [performance, benchmark, playwright, chromium, vsync]
 related:
   - https://github.com/coseo12/astro-simulator/pull/158

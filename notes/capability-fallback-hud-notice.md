@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 9
 captured_at: 2026-04-15
-status: inbox
+status: refined
 tags: [ux, progressive-enhancement, webgpu, fallback, capability-detection]
 related:
   - https://github.com/coseo12/astro-simulator/pull/151
