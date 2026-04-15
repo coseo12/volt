@@ -4,7 +4,7 @@ type: report
 source_repo: coseo12/astro-simulator
 source_issue: 13
 captured_at: 2026-04-15
-status: inbox
+status: refined
 tags: [lint-staged, prettier, gitignore, husky, pre-commit, git-add, silent-revert]
 related:
   - harness-frozen-file-split-pattern.md

@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 12
 captured_at: 2026-04-15
-status: inbox
+status: refined
 tags: [harness-setting, ci, github-actions, frozen-file, managed-block, workflow-split]
 related:
   - lint-staged-gitignore-silent-revert.md
