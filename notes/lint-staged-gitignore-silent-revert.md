@@ -69,3 +69,33 @@ harness-setting v2.3.0 → v2.4.0 업데이트 브랜치(`chore/harness-update-v
 3. **lint-staged 출력 해석 규칙**: `[FAILED]` 키워드가 등장하면 **무조건 커밋 후 검증**. 특히 `gitignore` 관련 에러는 조용한 롤백의 전조.
 
 4. **tracked + ignored 혼재 상태 금지**: 새 `.gitignore` 규칙 추가 시 해당 범위에 이미 tracked 된 파일이 있는지 `git ls-files <path>` 로 확인하고 `git rm --cached` 로 정리하는 체크리스트 항목이 harness 에 필요.
+
+## 보강 (2026-04-15 후속, PR #163 커밋 `0af4c00`)
+
+이슈 최초 캡처 후 동일 브랜치에서 추가 커밋(`chore(harness): 포맷 정리 + next-env 자동갱신`)을 시도하며 재현된 패턴.
+
+### 우회책 검증: `git add -f`
+
+`.claude/` 하위 harness 파일(`.claude/agents/*.md`, `.claude/skills/*.md`)을 재스테이지할 때 `git add -f` 를 사용하면:
+
+- lint-staged 는 여전히 `[FAILED] The following paths are ignored by one of your .gitignore files: .claude` 메시지를 출력
+- **그러나** 커밋 자체는 의도한 5개 파일 모두 반영됨 — 이번에는 조용한 롤백이 발생하지 않음
+- 차이: 이번에는 `git add -f` 로 명시적으로 강제 스테이지했기 때문에 lint-staged 내부 재적용 단계가 실패해도 사용자가 원본 stage 한 상태가 보존됨 (스태시 복원 경로가 다르게 동작하는 것으로 추정)
+
+즉 **`git add -f` 는 실전 우회책으로 유효**하지만, lint-staged 의 `[FAILED]` 출력은 여전히 혼란스러움 — "실패했다고 하는데 커밋은 성공했다"는 인지 부하가 남음.
+
+### 근본 해결안 재정리 (배포 구조 관점)
+
+기존 제안(`git rm --cached` / `!path` 단건 예외)에 더해 harness 배포 구조 차원의 2가지 옵션:
+
+1. **`.gitignore` 화이트리스트 예외**: `!.claude/agents/`, `!.claude/skills/`, `!.claude/CLAUDE.md` 등 tracked 대상만 선별 허용.
+   - 장점: 기존 구조 유지.
+   - 단점: harness 파일 추가 시마다 예외 규칙 동기화 필요.
+2. **harness 파일 `.harness/` 하위로 이동**: `.claude/` 는 완전히 무시 대상으로 두고, 공유 파일은 `.harness/agents/`, `.harness/skills/` 로 배치 후 Claude Code 측에서 심볼릭 링크 또는 로더 경로 수정.
+   - 장점: ignore 규칙과 tracked 영역이 명확히 분리.
+   - 단점: Claude Code 로더 경로 관습과 충돌 가능성.
+
+### 교훈 보강
+
+- `git add -f` 는 해결책이 아니라 **증상 억제책** — 근본 원인인 tracked+ignored 혼재 상태는 남음.
+- harness-update 스킬 / PR 워크플로에 **"커밋 후 `git show --stat HEAD` 파일 목록이 기대와 일치하는지" 자동 검증** 단계를 넣는 것을 재차 제안 (이미 위 2번 항목 제안 → 운영 우선순위 격상).
