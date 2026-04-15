@@ -8,10 +8,11 @@
 ```
 inbox/        # 이슈에서 변환된 원본, 미정제
 notes/        # 정제된 지식/리포트 (평면 + 태그 기반)
-meta/         # agent/skill 개선 재료
+meta/         # agent/skill 개선 재료 + 볼트 자체 운영 로그
   feedback/   #   작업 중 AI 피드백 사례
   patterns/   #   반복 관찰된 워크플로 패턴
   decisions/  #   도구/접근법 선택 근거
+  operations/ #   볼트 운영 관찰 로그 (자동화/구조 판단 근거)
 templates/    # 옵시디언 템플릿
 attachments/  # 이미지 등 첨부 파일
 ```
