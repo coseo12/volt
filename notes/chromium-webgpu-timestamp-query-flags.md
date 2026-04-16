@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 16
 captured_at: 2026-04-16
-status: inbox
+status: refined
 tags: [webgpu, chromium, playwright, benchmark, toolchain]
 related:
   - gpu-ms-vs-sim-time-pitfall.md

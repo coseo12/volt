@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 15
 captured_at: 2026-04-16
-status: inbox
+status: refined
 tags: [benchmark, webgpu, babylon, pitfall]
 related:
   - chromium-webgpu-timestamp-query-flags.md

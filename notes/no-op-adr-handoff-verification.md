@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 14
 captured_at: 2026-04-16
-status: inbox
+status: refined
 tags: [pattern, adr, retrospective, verification]
 related:
   - ../meta/patterns/sprint-contract-retrospective.md
