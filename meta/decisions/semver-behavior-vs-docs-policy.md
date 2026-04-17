@@ -1,11 +1,10 @@
 ---
 title: 문서/규약 추가는 PATCH, 행동 변화는 MINOR — SemVer 판정 정책
-type: report
-report_type: decision
+type: decision
 source_repo: coseo12/harness-setting
 source_issue: 22
 captured_at: 2026-04-17
-status: inbox
+status: refined
 tags: [semver, versioning, release, policy, decision]
 related: []
 ---
