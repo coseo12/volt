@@ -8,6 +8,7 @@ status: refined
 tags: [babylon, webgpu, wgsl, postprocess, undocumented]
 related:
   - ./wgsl-texture-sample-uniform-control-flow.md
+  - ./babylon-postprocess-alpha-silent-failure.md
 ---
 
 ## 요약

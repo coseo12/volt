@@ -1,14 +1,13 @@
 ---
 title: ADR 결정 vs 구현 기술 장벽 — D' 변형(prime) 박제 패턴
-type: report
-report_type: pattern
+type: pattern
 source_repo: coseo12/astro-simulator
 source_issue: 26
 captured_at: 2026-04-18
-status: inbox
+status: refined
 tags: [adr, architecture-decision, design-evolution, implementation-reality, retrospective-hygiene, architect-persona]
 related:
-  - ../notes/babylon-postprocess-alpha-silent-failure.md
+  - ../../notes/babylon-postprocess-alpha-silent-failure.md
 ---
 
 ## 배경/상황

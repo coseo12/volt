@@ -1,11 +1,10 @@
 ---
 title: sub-agent 마무리 보고 누락 반복 패턴 — 검증은 신뢰하되 박제는 재검증
-type: report
-report_type: pattern
+type: pattern
 source_repo: coseo12/astro-simulator
 source_issue: 24
 captured_at: 2026-04-18
-status: inbox
+status: refined
 tags: [sub-agent, workflow, claude-code-harness, dev-persona, qa-persona, finalization, process]
 related: []
 ---

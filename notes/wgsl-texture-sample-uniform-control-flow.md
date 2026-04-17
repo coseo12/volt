@@ -8,6 +8,7 @@ status: refined
 tags: [wgsl, webgpu, shader, postprocess, pitfall]
 related:
   - ./babylon-v9-wgsl-postprocess-declarations.md
+  - ./babylon-postprocess-alpha-silent-failure.md
 ---
 
 ## 요약

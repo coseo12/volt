@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 25
 captured_at: 2026-04-18
-status: inbox
+status: refined
 tags: [babylon, wgsl, glsl, postprocess, webgpu, alpha-channel, silent-failure, shader-debug]
 related:
   - ./wgsl-texture-sample-uniform-control-flow.md
