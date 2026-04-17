@@ -4,10 +4,10 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 27
 captured_at: 2026-04-18
-status: inbox
+status: refined
 tags: [package-manager, manifest, state-recovery, idempotency, harness-setting, partial-failure]
 related:
-  - ../notes/lint-staged-gitignore-silent-revert.md
+  - ./lint-staged-gitignore-silent-revert.md
 ---
 
 ## 요약
