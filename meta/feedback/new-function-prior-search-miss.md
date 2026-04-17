@@ -1,7 +1,6 @@
 ---
 title: 신규 함수 작성 전 기존 유사 함수 탐색 누락 — 중복 코드 방지
-type: report
-report_type: feedback
+type: feedback
 source_repo: coseo12/astro-simulator
 source_issue: 21
 captured_at: 2026-04-17
