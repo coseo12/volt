@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 20
 captured_at: 2026-04-17
-status: inbox
+status: refined
 tags: [babylon, webgpu, wgsl, postprocess, undocumented]
 related:
   - ./wgsl-texture-sample-uniform-control-flow.md

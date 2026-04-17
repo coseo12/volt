@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 19
 captured_at: 2026-04-17
-status: inbox
+status: refined
 tags: [wgsl, webgpu, shader, postprocess, pitfall]
 related:
   - ./babylon-v9-wgsl-postprocess-declarations.md

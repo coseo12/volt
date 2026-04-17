@@ -5,7 +5,7 @@ report_type: feedback
 source_repo: coseo12/astro-simulator
 source_issue: 21
 captured_at: 2026-04-17
-status: inbox
+status: refined
 tags: [ai-feedback, code-duplication, workflow]
 related: []
 ---
