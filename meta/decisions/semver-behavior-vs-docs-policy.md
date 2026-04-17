@@ -6,7 +6,8 @@ source_issue: 22
 captured_at: 2026-04-17
 status: refined
 tags: [semver, versioning, release, policy, decision]
-related: []
+related:
+  - ../patterns/cross-validate-after-policy-freeze.md
 ---
 
 ## 배경/상황

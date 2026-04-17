@@ -1,11 +1,10 @@
 ---
 title: 정책/설계 박제 직후 교차검증 1회 루틴 — 단일 모델 편향 상쇄 패턴
-type: report
-report_type: pattern
+type: pattern
 source_repo: coseo12/harness-setting
 source_issue: 23
 captured_at: 2026-04-17
-status: inbox
+status: refined
 tags: [cross-validate, gemini, semver, bias, meta-review, template-as-prompt]
 related:
   - ../decisions/semver-behavior-vs-docs-policy.md
