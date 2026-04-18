@@ -9,6 +9,7 @@ tags: [lint-staged, prettier, gitignore, husky, pre-commit, git-add, silent-reve
 related:
   - harness-frozen-file-split-pattern.md
   - ./manifest-state-recovery-pattern.md
+  - ./state-atomicity-multi-layer-defense.md
   - https://github.com/coseo12/astro-simulator/pull/163
 ---
 

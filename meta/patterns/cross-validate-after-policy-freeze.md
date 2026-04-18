@@ -8,6 +8,8 @@ status: refined
 tags: [cross-validate, gemini, semver, bias, meta-review, template-as-prompt]
 related:
   - ../decisions/semver-behavior-vs-docs-policy.md
+  - ../../notes/state-atomicity-multi-layer-defense.md
+  - ../../notes/cross-validate-accept-vs-defer.md
 ---
 
 ## 배경/상황

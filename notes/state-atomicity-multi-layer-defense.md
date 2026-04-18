@@ -4,12 +4,12 @@ type: knowledge
 source_repo: coseo12/harness-setting
 source_issue: 28
 captured_at: 2026-04-18
-status: inbox
+status: refined
 tags: [atomicity, state-integrity, multi-layer-defense, manifest, post-apply-verification, self-healing, user-visibility]
 related:
-  - ../notes/cross-validate-accept-vs-defer.md
-  - ../notes/manifest-state-recovery-pattern.md
-  - ../notes/lint-staged-gitignore-silent-revert.md
+  - ./cross-validate-accept-vs-defer.md
+  - ./manifest-state-recovery-pattern.md
+  - ./lint-staged-gitignore-silent-revert.md
   - ../meta/patterns/cross-validate-after-policy-freeze.md
 ---
 

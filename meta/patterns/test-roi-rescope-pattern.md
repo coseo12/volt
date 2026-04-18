@@ -4,10 +4,10 @@ type: pattern
 source_repo: coseo12/harness-setting
 source_issue: 31
 captured_at: 2026-04-18
-status: inbox
+status: refined
 tags: [sprint-contract, test-roi, test-infrastructure, contract-in-comments, scope-adjustment, integration-test]
 related:
-  - ../meta/patterns/phased-release-split-pattern.md
+  - ./phased-release-split-pattern.md
 ---
 
 ## 요약

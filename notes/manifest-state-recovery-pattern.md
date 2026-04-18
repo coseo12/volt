@@ -8,6 +8,7 @@ status: refined
 tags: [package-manager, manifest, state-recovery, idempotency, harness-setting, partial-failure]
 related:
   - ./lint-staged-gitignore-silent-revert.md
+  - ./state-atomicity-multi-layer-defense.md
 ---
 
 ## 요약

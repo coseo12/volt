@@ -4,11 +4,11 @@ type: pattern
 source_repo: coseo12/harness-setting
 source_issue: 30
 captured_at: 2026-04-18
-status: inbox
+status: refined
 tags: [phased-release, sprint-sizing, incremental-delivery, feedback-loop, backward-compatible, minor-release]
 related:
-  - ../notes/cross-validate-accept-vs-defer.md
-  - ../meta/patterns/test-roi-rescope-pattern.md
+  - ../../notes/cross-validate-accept-vs-defer.md
+  - ./test-roi-rescope-pattern.md
 ---
 
 ## 요약

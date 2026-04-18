@@ -4,10 +4,10 @@ type: knowledge
 source_repo: coseo12/harness-setting
 source_issue: 29
 captured_at: 2026-04-18
-status: inbox
+status: refined
 tags: [cross-validate, gemini, scope-management, sprint-contract, decision-protocol, follow-up-issue]
 related:
-  - ../notes/state-atomicity-multi-layer-defense.md
+  - ./state-atomicity-multi-layer-defense.md
   - ../meta/patterns/phased-release-split-pattern.md
   - ../meta/patterns/cross-validate-after-policy-freeze.md
 ---
