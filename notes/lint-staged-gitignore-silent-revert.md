@@ -10,6 +10,7 @@ related:
   - harness-frozen-file-split-pattern.md
   - ./manifest-state-recovery-pattern.md
   - ./state-atomicity-multi-layer-defense.md
+  - ./harness-downstream-prettier-drift.md
   - https://github.com/coseo12/astro-simulator/pull/163
 ---
 

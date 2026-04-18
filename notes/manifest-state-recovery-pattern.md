@@ -9,6 +9,7 @@ tags: [package-manager, manifest, state-recovery, idempotency, harness-setting, 
 related:
   - ./lint-staged-gitignore-silent-revert.md
   - ./state-atomicity-multi-layer-defense.md
+  - ./harness-downstream-prettier-drift.md
 ---
 
 ## 요약

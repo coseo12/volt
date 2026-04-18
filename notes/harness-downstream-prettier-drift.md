@@ -4,11 +4,11 @@ type: report
 source_repo: coseo12/astro-simulator
 source_issue: 35
 captured_at: 2026-04-18
-status: inbox
+status: refined
 tags: [harness, prettier, lint-staged, integration-boundary, drift, update-flow]
 related:
-  - ../notes/lint-staged-gitignore-silent-revert.md
-  - ../notes/manifest-state-recovery-pattern.md
+  - ./lint-staged-gitignore-silent-revert.md
+  - ./manifest-state-recovery-pattern.md
 ---
 
 ## 배경/상황
