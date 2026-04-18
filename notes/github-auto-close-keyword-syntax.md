@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/harness-setting (PR #108 v2.14.0 커밋 메시지)
 source_issue: 41
 captured_at: 2026-04-19
-status: inbox
+status: refined
 tags: [github, auto-close, commit-message, pr, parsing, syntax]
 related:
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md

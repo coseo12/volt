@@ -8,6 +8,7 @@ status: refined
 tags: [sub-agent, workflow, claude-code-harness, dev-persona, qa-persona, finalization, process]
 related:
   - ./pm-sub-agent-multi-turn-round-drift.md
+  - ../../notes/github-auto-close-keyword-syntax.md
 ---
 
 ## 배경/상황

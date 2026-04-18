@@ -10,6 +10,7 @@ related:
   - ./state-atomicity-multi-layer-defense.md
   - ../meta/patterns/phased-release-split-pattern.md
   - ../meta/patterns/cross-validate-after-policy-freeze.md
+  - ./gemini-capacity-fallback-retry-protocol.md
 ---
 
 ## 요약

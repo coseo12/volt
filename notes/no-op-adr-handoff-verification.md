@@ -8,6 +8,7 @@ status: refined
 tags: [pattern, adr, retrospective, verification]
 related:
   - ../meta/patterns/sprint-contract-retrospective.md
+  - ../meta/patterns/dual-pr-drift-timeline-pattern.md
 ---
 
 ## 요약

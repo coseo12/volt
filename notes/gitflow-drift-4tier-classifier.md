@@ -4,10 +4,13 @@ type: knowledge
 source_repo: coseo12/harness-setting (v2.15.0 `lib/doctor.js` `classifyGitflowDrift`)
 source_issue: 38
 captured_at: 2026-04-19
-status: inbox
+status: refined
 tags: [gitflow, doctor, drift-detection, merge-base, false-positive, false-negative]
 related:
-  - ../notes/state-atomicity-multi-layer-defense.md
+  - ./state-atomicity-multi-layer-defense.md
+  - ../meta/patterns/dual-pr-drift-timeline-pattern.md
+  - ./release-pr-merge-strategy.md
+  - ./develop-dual-role-integration-staging.md
 ---
 
 ## 요약

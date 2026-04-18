@@ -4,11 +4,11 @@ type: report
 source_repo: coseo12/harness-setting (v2.13.0 / v2.15.0 박제 직후 cross-validate 루틴)
 source_issue: 40
 captured_at: 2026-04-19
-status: inbox
+status: refined
 tags: [cross-validate, gemini, capacity-exhaustion, claude-only-fallback, retrospective]
 related:
   - ../meta/patterns/cross-validate-after-policy-freeze.md
-  - ../notes/cross-validate-accept-vs-defer.md
+  - ./cross-validate-accept-vs-defer.md
 ---
 
 ## 배경/상황

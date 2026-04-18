@@ -10,6 +10,7 @@ related:
   - ../decisions/semver-behavior-vs-docs-policy.md
   - ../../notes/state-atomicity-multi-layer-defense.md
   - ../../notes/cross-validate-accept-vs-defer.md
+  - ../../notes/gemini-capacity-fallback-retry-protocol.md
 ---
 
 ## 배경/상황

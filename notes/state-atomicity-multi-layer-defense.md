@@ -11,6 +11,7 @@ related:
   - ./manifest-state-recovery-pattern.md
   - ./lint-staged-gitignore-silent-revert.md
   - ../meta/patterns/cross-validate-after-policy-freeze.md
+  - ./gitflow-drift-4tier-classifier.md
 ---
 
 ## 요약

@@ -4,9 +4,12 @@ type: knowledge
 source_repo: coseo12/harness-setting (v2.15.0 ADR 20260419-gitflow-main-develop 근거 보강)
 source_issue: 39
 captured_at: 2026-04-19
-status: inbox
+status: refined
 tags: [gitflow, develop, staging, integration-testing, paas, vercel, netlify, deployment]
-related: []
+related:
+  - ../meta/patterns/dual-pr-drift-timeline-pattern.md
+  - ./release-pr-merge-strategy.md
+  - ./gitflow-drift-4tier-classifier.md
 ---
 
 ## 요약

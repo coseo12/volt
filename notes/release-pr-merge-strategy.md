@@ -4,10 +4,13 @@ type: knowledge
 source_repo: coseo12/harness-setting (v2.13.0 관찰 → v2.14.0 전환 → v2.15.0 박제)
 source_issue: 37
 captured_at: 2026-04-19
-status: inbox
+status: refined
 tags: [gitflow, release, merge-commit, squash, fast-forward, adr]
 related:
-  - ../notes/manifest-state-recovery-pattern.md
+  - ./manifest-state-recovery-pattern.md
+  - ../meta/patterns/dual-pr-drift-timeline-pattern.md
+  - ./gitflow-drift-4tier-classifier.md
+  - ./develop-dual-role-integration-staging.md
 ---
 
 ## 요약

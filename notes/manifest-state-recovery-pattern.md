@@ -10,6 +10,7 @@ related:
   - ./lint-staged-gitignore-silent-revert.md
   - ./state-atomicity-multi-layer-defense.md
   - ./harness-downstream-prettier-drift.md
+  - ./release-pr-merge-strategy.md
 ---
 
 ## 요약

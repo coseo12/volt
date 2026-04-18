@@ -4,10 +4,13 @@ type: pattern
 source_repo: coseo12/harness-setting (v2.12.0 이전 → v2.13.0 복원)
 source_issue: 36
 captured_at: 2026-04-19
-status: inbox
+status: refined
 tags: [gitflow, dual-pr, drift, branch-strategy, retrospective, single-developer, ai-pair]
 related:
-  - ../notes/no-op-adr-handoff-verification.md
+  - ../../notes/no-op-adr-handoff-verification.md
+  - ../../notes/release-pr-merge-strategy.md
+  - ../../notes/gitflow-drift-4tier-classifier.md
+  - ../../notes/develop-dual-role-integration-staging.md
 ---
 
 ## 배경/상황
