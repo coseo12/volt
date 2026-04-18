@@ -8,6 +8,7 @@ status: refined
 tags: [adr, architecture-decision, design-evolution, implementation-reality, retrospective-hygiene, architect-persona]
 related:
   - ../../notes/babylon-postprocess-alpha-silent-failure.md
+  - ../../notes/swiftshader-headless-pixel-freeze.md
 ---
 
 ## 배경/상황

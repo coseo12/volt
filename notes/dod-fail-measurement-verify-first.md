@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 32
 captured_at: 2026-04-18
-status: inbox
+status: refined
 tags: [physics, measurement, debugging-method, sprint-contract, numerical-verification]
 related: []
 ---

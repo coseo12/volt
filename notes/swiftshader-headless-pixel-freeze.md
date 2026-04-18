@@ -4,7 +4,7 @@ type: report
 source_repo: coseo12/astro-simulator
 source_issue: 33
 captured_at: 2026-04-18
-status: inbox
+status: refined
 tags: [webgpu, playwright, headless, chrome, manual-verification, swiftshader, ui-testing, false-positive]
 related:
   - ../meta/feedback/ui-browser-verify-miss.md

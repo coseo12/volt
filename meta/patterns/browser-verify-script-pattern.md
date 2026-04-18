@@ -6,7 +6,8 @@ source_issue: 3
 captured_at: 2026-04-14
 status: refined
 tags: [process, playwright, verify, milestone]
-related: []
+related:
+  - ../../notes/swiftshader-headless-pixel-freeze.md
 ---
 
 ## 배경/상황

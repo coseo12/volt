@@ -6,7 +6,8 @@ source_issue: 1
 captured_at: 2026-04-14
 status: refined
 tags: [process, browser-verify, p1-p2]
-related: []
+related:
+  - ../../notes/swiftshader-headless-pixel-freeze.md
 ---
 
 ## 배경/상황

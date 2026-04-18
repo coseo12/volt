@@ -6,7 +6,8 @@ source_issue: 24
 captured_at: 2026-04-18
 status: refined
 tags: [sub-agent, workflow, claude-code-harness, dev-persona, qa-persona, finalization, process]
-related: []
+related:
+  - ./pm-sub-agent-multi-turn-round-drift.md
 ---
 
 ## 배경/상황

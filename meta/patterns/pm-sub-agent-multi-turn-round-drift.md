@@ -4,10 +4,10 @@ type: pattern
 source_repo: coseo12/astro-simulator
 source_issue: 34
 captured_at: 2026-04-18
-status: inbox
+status: refined
 tags: [pm-agent, multi-turn, sub-agent, context-loss, sendmessage, orchestration, harness]
 related:
-  - ../meta/patterns/sub-agent-finalization-miss-pattern.md
+  - ./sub-agent-finalization-miss-pattern.md
 ---
 
 ## 배경/상황
