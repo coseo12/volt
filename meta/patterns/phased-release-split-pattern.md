@@ -9,6 +9,7 @@ tags: [phased-release, sprint-sizing, incremental-delivery, feedback-loop, backw
 related:
   - ../../notes/cross-validate-accept-vs-defer.md
   - ./test-roi-rescope-pattern.md
+  - ../../notes/reviewer-cross-validate-5-step-loop.md
 ---
 
 ## 요약

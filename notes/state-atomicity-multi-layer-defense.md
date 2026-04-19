@@ -12,6 +12,7 @@ related:
   - ./lint-staged-gitignore-silent-revert.md
   - ../meta/patterns/cross-validate-after-policy-freeze.md
   - ./gitflow-drift-4tier-classifier.md
+  - ./fourth-automation-mapping-layer.md
 ---
 
 ## 요약

@@ -6,7 +6,8 @@ source_issue: 21
 captured_at: 2026-04-17
 status: refined
 tags: [ai-feedback, code-duplication, workflow]
-related: []
+related:
+  - ../../notes/new-data-not-new-code-adr-prediction.md
 ---
 
 ## 배경/상황

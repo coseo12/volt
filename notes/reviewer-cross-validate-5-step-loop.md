@@ -4,11 +4,11 @@ type: report
 source_repo: coseo12/harness-setting (2026-04-19 단일 세션, v2.15.1 → v2.19.0 9 릴리스)
 source_issue: 44
 captured_at: 2026-04-19
-status: inbox
+status: refined
 tags: [reviewer, cross-validate, pr-loop, release-cadence, follow-up-separation, phase-separation, session-density]
 related:
   - ../meta/patterns/cross-validate-after-policy-freeze.md
-  - ../notes/cross-validate-accept-vs-defer.md
+  - ./cross-validate-accept-vs-defer.md
   - ../meta/patterns/phased-release-split-pattern.md
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md
 ---

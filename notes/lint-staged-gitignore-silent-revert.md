@@ -11,6 +11,7 @@ related:
   - ./manifest-state-recovery-pattern.md
   - ./state-atomicity-multi-layer-defense.md
   - ./harness-downstream-prettier-drift.md
+  - ./stale-dev-server-port-collision.md
   - https://github.com/coseo12/astro-simulator/pull/163
 ---
 

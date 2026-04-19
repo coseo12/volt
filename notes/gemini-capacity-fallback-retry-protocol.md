@@ -9,6 +9,8 @@ tags: [cross-validate, gemini, capacity-exhaustion, claude-only-fallback, retros
 related:
   - ../meta/patterns/cross-validate-after-policy-freeze.md
   - ./cross-validate-accept-vs-defer.md
+  - ./cross-validate-self-application-positive-path.md
+  - ./fourth-automation-mapping-layer.md
 ---
 
 ## 배경/상황

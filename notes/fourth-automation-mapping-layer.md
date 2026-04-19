@@ -4,12 +4,12 @@ type: knowledge
 source_repo: coseo12/harness-setting (v2.16.0 → v2.17.0 → v2.18.0 → v2.19.0 의 4단계 방어 완성 여정)
 source_issue: 43
 captured_at: 2026-04-19
-status: inbox
+status: refined
 tags: [defense-layers, wishful-documentation, structural-enforcement, automation, agent-prompt, shell-script, json-outcome-file]
 related:
-  - ../notes/state-atomicity-multi-layer-defense.md
+  - ./state-atomicity-multi-layer-defense.md
   - ../meta/patterns/cross-validate-after-policy-freeze.md
-  - ../notes/gemini-capacity-fallback-retry-protocol.md
+  - ./gemini-capacity-fallback-retry-protocol.md
 ---
 
 ## 요약

@@ -4,7 +4,7 @@ type: report
 source_repo: coseo12/astro-simulator
 source_issue: 45
 captured_at: 2026-04-19
-status: inbox
+status: refined
 tags: [github-actions, workflow_dispatch, pull-request, permissions, gitflow, release]
 related: []
 ---

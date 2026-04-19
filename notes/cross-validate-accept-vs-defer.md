@@ -11,6 +11,7 @@ related:
   - ../meta/patterns/phased-release-split-pattern.md
   - ../meta/patterns/cross-validate-after-policy-freeze.md
   - ./gemini-capacity-fallback-retry-protocol.md
+  - ./reviewer-cross-validate-5-step-loop.md
 ---
 
 ## 요약

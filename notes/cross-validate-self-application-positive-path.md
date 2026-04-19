@@ -4,11 +4,11 @@ type: report
 source_repo: coseo12/harness-setting (v2.16.0 / v2.17.0 / v2.18.0 / v2.19.0 연속 박제 직후 cross-validate 루틴)
 source_issue: 42
 captured_at: 2026-04-19
-status: inbox
+status: refined
 tags: [cross-validate, gemini, dogfooding, self-application, fallback-protocol, positive-path-validation]
 related:
   - ../meta/patterns/cross-validate-after-policy-freeze.md
-  - ../notes/gemini-capacity-fallback-retry-protocol.md
+  - ./gemini-capacity-fallback-retry-protocol.md
 ---
 
 ## 배경/상황

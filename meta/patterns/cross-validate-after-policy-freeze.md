@@ -11,6 +11,9 @@ related:
   - ../../notes/state-atomicity-multi-layer-defense.md
   - ../../notes/cross-validate-accept-vs-defer.md
   - ../../notes/gemini-capacity-fallback-retry-protocol.md
+  - ../../notes/cross-validate-self-application-positive-path.md
+  - ../../notes/fourth-automation-mapping-layer.md
+  - ../../notes/reviewer-cross-validate-5-step-loop.md
 ---
 
 ## 배경/상황

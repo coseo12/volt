@@ -4,11 +4,11 @@ type: report
 source_repo: coseo12/astro-simulator
 source_issue: 46
 captured_at: 2026-04-19
-status: inbox
+status: refined
 tags: [dev-server, sub-agent, background-process, cleanup, lsof, nextjs, hmr]
 related:
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md
-  - ../notes/lint-staged-gitignore-silent-revert.md
+  - ./lint-staged-gitignore-silent-revert.md
 ---
 
 ## 배경/상황

@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 47
 captured_at: 2026-04-19
-status: inbox
+status: refined
 tags: [adr, abstraction, pattern, data-driven, parent-child, json-schema, prediction]
 related:
   - ../meta/feedback/new-function-prior-search-miss.md
