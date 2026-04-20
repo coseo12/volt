@@ -4,11 +4,11 @@ type: pattern
 source_repo: coseo12/harness-setting
 source_issue: 59
 captured_at: 2026-04-20
-status: inbox
+status: refined
 tags: [cross-validate, dogfooding-failure, external-tool-verification, pnpm, npm-flag-asymmetry, self-violation, compile-rule-exception, reviewer-gemini-both-missed]
 related:
-  - ../notes/external-tool-claim-empirical-verify.md
-  - ../notes/cross-validate-principle-declaration-bias.md
+  - ../../notes/external-tool-claim-empirical-verify.md
+  - ../../notes/cross-validate-principle-declaration-bias.md
 ---
 
 ## 배경/상황

@@ -9,6 +9,7 @@ tags: [release-pipeline, metadata-drift, ci-guard, implicit-convention, recovery
 related:
   - ./lint-staged-gitignore-silent-revert.md
   - ./manifest-state-recovery-pattern.md
+  - ./sub-agent-runtime-ssot-variance.md
 ---
 
 ## 요약

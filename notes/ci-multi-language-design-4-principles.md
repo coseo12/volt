@@ -12,6 +12,7 @@ related:
   - ./external-tool-claim-empirical-verify.md
   - ./long-test-ignore-fast-loop-template.md
   - ./cross-validate-principle-declaration-bias.md
+  - ./sub-agent-runtime-ssot-variance.md
 ---
 
 ## 요약

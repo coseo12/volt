@@ -10,6 +10,7 @@ related:
   - ./state-atomicity-multi-layer-defense.md
   - ../meta/patterns/cross-validate-after-policy-freeze.md
   - ./gemini-capacity-fallback-retry-protocol.md
+  - ./sub-agent-runtime-ssot-variance.md
 ---
 
 ## 요약

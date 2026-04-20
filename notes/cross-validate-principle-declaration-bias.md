@@ -12,6 +12,8 @@ related:
   - ./cross-validate-self-application-positive-path.md
   - ./external-tool-claim-empirical-verify.md
   - ./ci-multi-language-design-4-principles.md
+  - ./sub-agent-runtime-ssot-variance.md
+  - ../meta/patterns/dogfooding-guard-self-violation-pattern.md
 ---
 
 ## 요약

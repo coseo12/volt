@@ -4,14 +4,14 @@ type: knowledge
 source_repo: coseo12/harness-setting
 source_issue: 58
 captured_at: 2026-04-20
-status: inbox
+status: refined
 tags: [sub-agent, ssot, llm-variance, runtime-validation, static-vs-runtime-blindspot, return-json, compile-rule-activation]
 related:
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md
-  - ../notes/fourth-automation-mapping-layer.md
-  - ../notes/cross-validate-principle-declaration-bias.md
-  - ../notes/release-version-metadata-drift-guard.md
-  - ../notes/ci-multi-language-design-4-principles.md
+  - ./fourth-automation-mapping-layer.md
+  - ./cross-validate-principle-declaration-bias.md
+  - ./release-version-metadata-drift-guard.md
+  - ./ci-multi-language-design-4-principles.md
 ---
 
 ## 요약

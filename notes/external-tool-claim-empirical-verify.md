@@ -11,6 +11,7 @@ related:
   - ../meta/patterns/cross-validate-after-policy-freeze.md
   - ./cross-validate-principle-declaration-bias.md
   - ./ci-multi-language-design-4-principles.md
+  - ../meta/patterns/dogfooding-guard-self-violation-pattern.md
 ---
 
 ## 요약
