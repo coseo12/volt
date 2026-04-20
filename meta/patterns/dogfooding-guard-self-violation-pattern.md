@@ -9,6 +9,8 @@ tags: [cross-validate, dogfooding-failure, external-tool-verification, pnpm, npm
 related:
   - ../../notes/external-tool-claim-empirical-verify.md
   - ../../notes/cross-validate-principle-declaration-bias.md
+  - ../../notes/downstream-measurement-final-guard.md
+  - ../../notes/claude-bias-5th-ecosystem-assumption.md
 ---
 
 ## 배경/상황

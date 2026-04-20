@@ -14,6 +14,7 @@ related:
   - ./ci-multi-language-design-4-principles.md
   - ./sub-agent-runtime-ssot-variance.md
   - ../meta/patterns/dogfooding-guard-self-violation-pattern.md
+  - ./claude-bias-5th-ecosystem-assumption.md
 ---
 
 ## 요약

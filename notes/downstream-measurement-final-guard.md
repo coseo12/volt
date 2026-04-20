@@ -4,13 +4,13 @@ type: knowledge
 source_repo: coseo12/harness-setting
 source_issue: 60
 captured_at: 2026-04-20
-status: inbox
+status: refined
 tags: [downstream-validation, final-guard, ci-coverage-limit, real-usage-as-test, production-as-canary, verification-asymmetry]
 related:
   - ../meta/patterns/dogfooding-guard-self-violation-pattern.md
-  - ../notes/ci-green-no-test-execution-trap.md
-  - ../notes/external-tool-claim-empirical-verify.md
-  - ../notes/release-version-metadata-drift-guard.md
+  - ./ci-green-no-test-execution-trap.md
+  - ./external-tool-claim-empirical-verify.md
+  - ./release-version-metadata-drift-guard.md
 ---
 
 ## 요약

@@ -10,6 +10,7 @@ related:
   - ./lint-staged-gitignore-silent-revert.md
   - ./manifest-state-recovery-pattern.md
   - ./sub-agent-runtime-ssot-variance.md
+  - ./downstream-measurement-final-guard.md
 ---
 
 ## 요약

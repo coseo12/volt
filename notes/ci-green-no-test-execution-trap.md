@@ -11,6 +11,7 @@ related:
   - ./comment-contract-implementation-drift.md
   - ./flaky-test-suppress-vs-root-cause.md
   - ./ci-multi-language-design-4-principles.md
+  - ./downstream-measurement-final-guard.md
 ---
 
 ## 요약

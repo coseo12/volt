@@ -4,10 +4,10 @@ type: knowledge
 source_repo: coseo12/harness-setting
 source_issue: 61
 captured_at: 2026-04-20
-status: inbox
+status: refined
 tags: [claude-bias, checklist-extension, ecosystem-assumption, cli-flag-compat, bias-candidate, compile-rule-tracking, self-observation]
 related:
-  - ../notes/cross-validate-principle-declaration-bias.md
+  - ./cross-validate-principle-declaration-bias.md
   - ../meta/patterns/dogfooding-guard-self-violation-pattern.md
 ---
 
