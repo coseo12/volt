@@ -4,10 +4,10 @@ type: knowledge
 source_repo: coseo12/harness-setting
 source_issue: 51
 captured_at: 2026-04-20
-status: inbox
+status: refined
 tags: [cross-validate, gemini, false-positive, external-tool, verification, blind-acceptance]
 related:
-  - ../notes/lint-staged-gitignore-silent-revert.md
+  - ./lint-staged-gitignore-silent-revert.md
   - ../meta/patterns/cross-validate-after-policy-freeze.md
 ---
 

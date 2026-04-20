@@ -14,6 +14,7 @@ related:
   - ../../notes/cross-validate-self-application-positive-path.md
   - ../../notes/fourth-automation-mapping-layer.md
   - ../../notes/reviewer-cross-validate-5-step-loop.md
+  - ../../notes/external-tool-claim-empirical-verify.md
 ---
 
 ## 배경/상황

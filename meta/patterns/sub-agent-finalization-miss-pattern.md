@@ -11,6 +11,7 @@ related:
   - ../../notes/github-auto-close-keyword-syntax.md
   - ../../notes/reviewer-cross-validate-5-step-loop.md
   - ../../notes/stale-dev-server-port-collision.md
+  - ../../notes/comment-contract-implementation-drift.md
 ---
 
 ## 배경/상황

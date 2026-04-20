@@ -4,12 +4,12 @@ type: knowledge
 source_repo: coseo12/harness-setting
 source_issue: 49
 captured_at: 2026-04-20
-status: inbox
+status: refined
 tags: [documentation, contract, implementation, drift, flaky, categorization, testing]
 related:
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md
-  - ../notes/ci-green-no-test-execution-trap.md
-  - ../notes/flaky-test-suppress-vs-root-cause.md
+  - ./ci-green-no-test-execution-trap.md
+  - ./flaky-test-suppress-vs-root-cause.md
 ---
 
 ## 요약

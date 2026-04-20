@@ -4,12 +4,12 @@ type: knowledge
 source_repo: coseo12/harness-setting
 source_issue: 48
 captured_at: 2026-04-20
-status: inbox
+status: refined
 tags: [ci, github-actions, template, npm-test, audit, observability]
 related:
-  - ../notes/lint-staged-gitignore-silent-revert.md
-  - ../notes/comment-contract-implementation-drift.md
-  - ../notes/flaky-test-suppress-vs-root-cause.md
+  - ./lint-staged-gitignore-silent-revert.md
+  - ./comment-contract-implementation-drift.md
+  - ./flaky-test-suppress-vs-root-cause.md
 ---
 
 ## 요약

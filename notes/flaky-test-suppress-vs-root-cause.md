@@ -4,11 +4,11 @@ type: knowledge
 source_repo: coseo12/harness-setting
 source_issue: 50
 captured_at: 2026-04-20
-status: inbox
+status: refined
 tags: [testing, flaky, concurrency, debugging, diagnostic-routine, root-cause]
 related:
-  - ../notes/ci-green-no-test-execution-trap.md
-  - ../notes/comment-contract-implementation-drift.md
+  - ./ci-green-no-test-execution-trap.md
+  - ./comment-contract-implementation-drift.md
 ---
 
 ## 요약
