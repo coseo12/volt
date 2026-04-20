@@ -4,12 +4,12 @@ type: knowledge
 source_repo: coseo12/astro-simulator / coseo12/harness-setting
 source_issue: 63
 captured_at: 2026-04-20
-status: inbox
+status: refined
 tags: [process, session-management, scope-drift, orchestration, meta]
 related:
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md
   - ../meta/patterns/pm-sub-agent-multi-turn-round-drift.md
-  - ../notes/pnpm-wasm-monorepo-upstream-fixture.md
+  - ./pnpm-wasm-monorepo-upstream-fixture.md
 ---
 
 ## 요약

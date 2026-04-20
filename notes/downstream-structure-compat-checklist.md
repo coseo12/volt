@@ -4,12 +4,12 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 62
 captured_at: 2026-04-20
-status: inbox
+status: refined
 tags: [harness, ci, pnpm, monorepo, wasm, compatibility-check]
 related:
   - ../meta/patterns/dogfooding-guard-self-violation-pattern.md
-  - ../notes/downstream-measurement-final-guard.md
-  - ../notes/pnpm-wasm-monorepo-upstream-fixture.md
+  - ./downstream-measurement-final-guard.md
+  - ./pnpm-wasm-monorepo-upstream-fixture.md
 ---
 
 ## 요약

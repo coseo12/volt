@@ -4,13 +4,13 @@ type: knowledge
 source_repo: coseo12/harness-setting
 source_issue: 64
 captured_at: 2026-04-20
-status: inbox
+status: refined
 tags: [harness, ci, pnpm, workspace, wasm, smoke-test, upstream-coverage]
 related:
-  - ../notes/downstream-structure-compat-checklist.md
-  - ../notes/session-multi-release-drift-signal.md
+  - ./downstream-structure-compat-checklist.md
+  - ./session-multi-release-drift-signal.md
   - ../meta/patterns/dogfooding-guard-self-violation-pattern.md
-  - ../notes/downstream-measurement-final-guard.md
+  - ./downstream-measurement-final-guard.md
 ---
 
 ## 요약

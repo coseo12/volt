@@ -11,6 +11,8 @@ related:
   - ./ci-green-no-test-execution-trap.md
   - ./external-tool-claim-empirical-verify.md
   - ./release-version-metadata-drift-guard.md
+  - ./downstream-structure-compat-checklist.md
+  - ./pnpm-wasm-monorepo-upstream-fixture.md
 ---
 
 ## 요약

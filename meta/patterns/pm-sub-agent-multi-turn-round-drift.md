@@ -8,6 +8,7 @@ status: refined
 tags: [pm-agent, multi-turn, sub-agent, context-loss, sendmessage, orchestration, harness]
 related:
   - ./sub-agent-finalization-miss-pattern.md
+  - ../../notes/session-multi-release-drift-signal.md
 ---
 
 ## 배경/상황

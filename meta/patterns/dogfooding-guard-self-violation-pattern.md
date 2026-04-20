@@ -11,6 +11,8 @@ related:
   - ../../notes/cross-validate-principle-declaration-bias.md
   - ../../notes/downstream-measurement-final-guard.md
   - ../../notes/claude-bias-5th-ecosystem-assumption.md
+  - ../../notes/downstream-structure-compat-checklist.md
+  - ../../notes/pnpm-wasm-monorepo-upstream-fixture.md
 ---
 
 ## 배경/상황

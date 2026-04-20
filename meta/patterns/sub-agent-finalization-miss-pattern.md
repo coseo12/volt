@@ -14,6 +14,7 @@ related:
   - ../../notes/stale-dev-server-port-collision.md
   - ../../notes/comment-contract-implementation-drift.md
   - ../../notes/sub-agent-runtime-ssot-variance.md
+  - ../../notes/session-multi-release-drift-signal.md
 ---
 
 ## 배경/상황
