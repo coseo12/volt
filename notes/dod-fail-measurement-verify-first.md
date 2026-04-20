@@ -6,7 +6,8 @@ source_issue: 32
 captured_at: 2026-04-18
 status: refined
 tags: [physics, measurement, debugging-method, sprint-contract, numerical-verification]
-related: []
+related:
+  - ../meta/patterns/measurement-verify-step4-data-integrity.md
 ---
 
 ## 요약

@@ -4,10 +4,10 @@ type: pattern
 source_repo: coseo12/astro-simulator
 source_issue: 53
 captured_at: 2026-04-20
-status: inbox
+status: refined
 tags: [measurement-methodology, sprint-contract, data-integrity, debug-workflow, volt-32-extension]
 related:
-  - ../notes/dod-fail-measurement-verify-first.md
+  - ../../notes/dod-fail-measurement-verify-first.md
 ---
 
 ## 배경/상황

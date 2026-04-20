@@ -8,6 +8,7 @@ status: refined
 tags: [sub-agent, process-management, cargo, background-process, workflow-pattern, harness-rag]
 related:
   - ./sub-agent-finalization-miss-pattern.md
+  - ../../notes/long-test-ignore-fast-loop-template.md
 ---
 
 ## 배경/상황

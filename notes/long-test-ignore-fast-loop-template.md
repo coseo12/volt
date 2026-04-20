@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 54
 captured_at: 2026-04-20
-status: inbox
+status: refined
 tags: [rust, cargo, ci-cd, test-infrastructure, ignore-attribute, workflow-pattern, harness-rag]
 related:
   - ../meta/patterns/sub-agent-bg-process-leak-pattern.md
