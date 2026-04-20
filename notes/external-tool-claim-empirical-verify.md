@@ -9,6 +9,7 @@ tags: [cross-validate, gemini, false-positive, external-tool, verification, blin
 related:
   - ./lint-staged-gitignore-silent-revert.md
   - ../meta/patterns/cross-validate-after-policy-freeze.md
+  - ./cross-validate-principle-declaration-bias.md
 ---
 
 ## 요약

@@ -9,6 +9,7 @@ tags: [cross-validate, gemini, dogfooding, self-application, fallback-protocol, 
 related:
   - ../meta/patterns/cross-validate-after-policy-freeze.md
   - ./gemini-capacity-fallback-retry-protocol.md
+  - ./cross-validate-principle-declaration-bias.md
 ---
 
 ## 배경/상황

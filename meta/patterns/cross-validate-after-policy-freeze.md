@@ -15,6 +15,7 @@ related:
   - ../../notes/fourth-automation-mapping-layer.md
   - ../../notes/reviewer-cross-validate-5-step-loop.md
   - ../../notes/external-tool-claim-empirical-verify.md
+  - ../../notes/cross-validate-principle-declaration-bias.md
 ---
 
 ## 배경/상황

@@ -4,13 +4,13 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 55
 captured_at: 2026-04-20
-status: inbox
+status: refined
 tags: [cross-validate, sprint-contract, adr-framing, bias-correction, principle-declaration]
 related:
   - ../meta/patterns/cross-validate-after-policy-freeze.md
-  - ../notes/cross-validate-accept-vs-defer.md
-  - ../notes/cross-validate-self-application-positive-path.md
-  - ../notes/external-tool-claim-empirical-verify.md
+  - ./cross-validate-accept-vs-defer.md
+  - ./cross-validate-self-application-positive-path.md
+  - ./external-tool-claim-empirical-verify.md
 ---
 
 ## 요약

@@ -12,6 +12,7 @@ related:
   - ../meta/patterns/cross-validate-after-policy-freeze.md
   - ./gemini-capacity-fallback-retry-protocol.md
   - ./reviewer-cross-validate-5-step-loop.md
+  - ./cross-validate-principle-declaration-bias.md
 ---
 
 ## 요약
