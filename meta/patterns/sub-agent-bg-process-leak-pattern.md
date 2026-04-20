@@ -4,10 +4,10 @@ type: pattern
 source_repo: coseo12/astro-simulator
 source_issue: 52
 captured_at: 2026-04-20
-status: inbox
+status: refined
 tags: [sub-agent, process-management, cargo, background-process, workflow-pattern, harness-rag]
 related:
-  - ../meta/patterns/sub-agent-finalization-miss-pattern.md
+  - ./sub-agent-finalization-miss-pattern.md
 ---
 
 ## 배경/상황
