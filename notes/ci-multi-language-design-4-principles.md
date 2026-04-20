@@ -4,14 +4,14 @@ type: knowledge
 source_repo: coseo12/harness-setting
 source_issue: 57
 captured_at: 2026-04-20
-status: inbox
+status: refined
 tags: [ci, multi-language, package-manager, supply-chain-security, yarn-berry, python-package-managers, rust-cargo, go, pattern-extraction, echo-only-trap, review-actionability]
 related:
-  - ../notes/ci-green-no-test-execution-trap.md
-  - ../notes/comment-contract-implementation-drift.md
-  - ../notes/external-tool-claim-empirical-verify.md
-  - ../notes/long-test-ignore-fast-loop-template.md
-  - ../notes/cross-validate-principle-declaration-bias.md
+  - ./ci-green-no-test-execution-trap.md
+  - ./comment-contract-implementation-drift.md
+  - ./external-tool-claim-empirical-verify.md
+  - ./long-test-ignore-fast-loop-template.md
+  - ./cross-validate-principle-declaration-bias.md
 ---
 
 ## 요약

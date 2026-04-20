@@ -10,6 +10,7 @@ related:
   - ./lint-staged-gitignore-silent-revert.md
   - ../meta/patterns/cross-validate-after-policy-freeze.md
   - ./cross-validate-principle-declaration-bias.md
+  - ./ci-multi-language-design-4-principles.md
 ---
 
 ## 요약

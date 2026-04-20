@@ -8,6 +8,7 @@ status: refined
 tags: [rust, cargo, ci-cd, test-infrastructure, ignore-attribute, workflow-pattern, harness-rag]
 related:
   - ../meta/patterns/sub-agent-bg-process-leak-pattern.md
+  - ./ci-multi-language-design-4-principles.md
 ---
 
 ## 요약

@@ -11,6 +11,7 @@ related:
   - ./cross-validate-accept-vs-defer.md
   - ./cross-validate-self-application-positive-path.md
   - ./external-tool-claim-empirical-verify.md
+  - ./ci-multi-language-design-4-principles.md
 ---
 
 ## 요약

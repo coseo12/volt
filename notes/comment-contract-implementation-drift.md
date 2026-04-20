@@ -10,6 +10,7 @@ related:
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md
   - ./ci-green-no-test-execution-trap.md
   - ./flaky-test-suppress-vs-root-cause.md
+  - ./ci-multi-language-design-4-principles.md
 ---
 
 ## 요약
