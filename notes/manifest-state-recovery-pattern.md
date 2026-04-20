@@ -11,6 +11,7 @@ related:
   - ./state-atomicity-multi-layer-defense.md
   - ./harness-downstream-prettier-drift.md
   - ./release-pr-merge-strategy.md
+  - ./release-version-metadata-drift-guard.md
 ---
 
 ## 요약

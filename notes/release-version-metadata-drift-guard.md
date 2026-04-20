@@ -4,11 +4,11 @@ type: knowledge
 source_repo: coseo12/harness-setting
 source_issue: 56
 captured_at: 2026-04-20
-status: inbox
+status: refined
 tags: [release-pipeline, metadata-drift, ci-guard, implicit-convention, recovery-pattern, structural-enforcement, silent-failure]
 related:
-  - ../notes/lint-staged-gitignore-silent-revert.md
-  - ../notes/manifest-state-recovery-pattern.md
+  - ./lint-staged-gitignore-silent-revert.md
+  - ./manifest-state-recovery-pattern.md
 ---
 
 ## 요약

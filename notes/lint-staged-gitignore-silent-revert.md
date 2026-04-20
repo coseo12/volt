@@ -14,6 +14,7 @@ related:
   - ./stale-dev-server-port-collision.md
   - ./ci-green-no-test-execution-trap.md
   - ./external-tool-claim-empirical-verify.md
+  - ./release-version-metadata-drift-guard.md
   - https://github.com/coseo12/astro-simulator/pull/163
 ---
 
