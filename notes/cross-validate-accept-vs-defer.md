@@ -13,6 +13,8 @@ related:
   - ./gemini-capacity-fallback-retry-protocol.md
   - ./reviewer-cross-validate-5-step-loop.md
   - ./cross-validate-principle-declaration-bias.md
+  - ./cross-validate-dod-self-contradiction.md
+  - ./debug-script-over-static-analysis.md
 ---
 
 ## 요약

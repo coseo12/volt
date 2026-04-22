@@ -13,6 +13,8 @@ related:
   - ./release-version-metadata-drift-guard.md
   - ./downstream-structure-compat-checklist.md
   - ./pnpm-wasm-monorepo-upstream-fixture.md
+  - ./cross-validate-dod-self-contradiction.md
+  - ./debug-script-over-static-analysis.md
 ---
 
 ## 요약

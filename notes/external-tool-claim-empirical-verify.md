@@ -13,6 +13,7 @@ related:
   - ./ci-multi-language-design-4-principles.md
   - ../meta/patterns/dogfooding-guard-self-violation-pattern.md
   - ./downstream-measurement-final-guard.md
+  - ./cross-validate-dod-self-contradiction.md
 ---
 
 ## 요약

@@ -16,6 +16,8 @@ related:
   - ../../notes/reviewer-cross-validate-5-step-loop.md
   - ../../notes/external-tool-claim-empirical-verify.md
   - ../../notes/cross-validate-principle-declaration-bias.md
+  - ../../notes/cross-validate-dod-self-contradiction.md
+  - ../../notes/debug-script-over-static-analysis.md
 ---
 
 ## 배경/상황

@@ -4,15 +4,15 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 67
 captured_at: 2026-04-22
-status: inbox
+status: refined
 tags: [debug-script, static-analysis, investigation, architecture-drift, explore-agent, runtime-truth]
 related:
-  - ../notes/comment-contract-implementation-drift.md
-  - ../notes/downstream-measurement-final-guard.md
-  - ../notes/no-op-adr-handoff-verification.md
+  - ./comment-contract-implementation-drift.md
+  - ./downstream-measurement-final-guard.md
+  - ./no-op-adr-handoff-verification.md
   - ../meta/patterns/cross-validate-after-policy-freeze.md
-  - ../notes/cross-validate-accept-vs-defer.md
-  - ../notes/cross-validate-dod-self-contradiction.md
+  - ./cross-validate-accept-vs-defer.md
+  - ./cross-validate-dod-self-contradiction.md
 ---
 
 ## 요약

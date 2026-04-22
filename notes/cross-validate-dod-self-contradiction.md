@@ -4,14 +4,14 @@ type: report
 source_repo: coseo12/astro-simulator
 source_issue: 66
 captured_at: 2026-04-22
-status: inbox
+status: refined
 tags: [cross-validate, DoD, self-contradiction, sanity-check, implementation-gap]
 related:
   - ../meta/patterns/cross-validate-after-policy-freeze.md
-  - ../notes/cross-validate-accept-vs-defer.md
-  - ../notes/external-tool-claim-empirical-verify.md
-  - ../notes/downstream-measurement-final-guard.md
-  - ../notes/debug-script-over-static-analysis.md
+  - ./cross-validate-accept-vs-defer.md
+  - ./external-tool-claim-empirical-verify.md
+  - ./downstream-measurement-final-guard.md
+  - ./debug-script-over-static-analysis.md
 ---
 
 ## 배경/상황
