@@ -12,6 +12,7 @@ related:
   - ./flaky-test-suppress-vs-root-cause.md
   - ./ci-multi-language-design-4-principles.md
   - ./debug-script-over-static-analysis.md
+  - ./hidden-constant-proportion-drift.md
 ---
 
 ## 요약

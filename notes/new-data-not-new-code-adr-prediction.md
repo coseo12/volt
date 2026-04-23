@@ -8,6 +8,7 @@ status: refined
 tags: [adr, abstraction, pattern, data-driven, parent-child, json-schema, prediction]
 related:
   - ../meta/feedback/new-function-prior-search-miss.md
+  - ./hidden-constant-proportion-drift.md
 ---
 
 ## 요약

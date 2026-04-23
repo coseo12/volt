@@ -4,12 +4,12 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 69
 captured_at: 2026-04-23
-status: inbox
+status: refined
 tags: [reviewer, static-review, drift, hidden-constant, proportion-bug, adr-prediction, code-review-pattern]
 related:
-  - ../notes/comment-contract-implementation-drift.md
-  - ../notes/new-data-not-new-code-adr-prediction.md
-  - ../notes/fact-first-visibility-scale-trap.md
+  - ./comment-contract-implementation-drift.md
+  - ./new-data-not-new-code-adr-prediction.md
+  - ./fact-first-visibility-scale-trap.md
 ---
 
 ## 요약

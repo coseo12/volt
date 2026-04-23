@@ -4,11 +4,11 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 68
 captured_at: 2026-04-23
-status: inbox
+status: refined
 tags: [fact-first, visualization, scale, ux, design-principle, scientific-rendering]
 related:
-  - ../notes/swiftshader-headless-pixel-freeze.md
-  - ../notes/hidden-constant-proportion-drift.md
+  - ./swiftshader-headless-pixel-freeze.md
+  - ./hidden-constant-proportion-drift.md
 ---
 
 ## 요약
