@@ -12,6 +12,7 @@ related:
   - ./cross-validate-principle-declaration-bias.md
   - ./release-version-metadata-drift-guard.md
   - ./ci-multi-language-design-4-principles.md
+  - ./ssot-json-field-sign-misread.md
 ---
 
 ## 요약

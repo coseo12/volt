@@ -8,6 +8,7 @@ status: refined
 tags: [physics, measurement, debugging-method, sprint-contract, numerical-verification]
 related:
   - ../meta/patterns/measurement-verify-step4-data-integrity.md
+  - ./ssot-json-field-sign-misread.md
 ---
 
 ## 요약

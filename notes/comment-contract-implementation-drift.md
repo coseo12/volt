@@ -13,6 +13,8 @@ related:
   - ./ci-multi-language-design-4-principles.md
   - ./debug-script-over-static-analysis.md
   - ./hidden-constant-proportion-drift.md
+  - ./monorepo-core-dist-stale.md
+  - ./roi-test-skip-judgment-drift.md
 ---
 
 ## 요약

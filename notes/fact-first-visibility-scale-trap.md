@@ -9,6 +9,7 @@ tags: [fact-first, visualization, scale, ux, design-principle, scientific-render
 related:
   - ./swiftshader-headless-pixel-freeze.md
   - ./hidden-constant-proportion-drift.md
+  - ./fact-mode-unification-ux-regression.md
 ---
 
 ## 요약

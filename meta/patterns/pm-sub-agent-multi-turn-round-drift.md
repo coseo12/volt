@@ -9,6 +9,7 @@ tags: [pm-agent, multi-turn, sub-agent, context-loss, sendmessage, orchestration
 related:
   - ./sub-agent-finalization-miss-pattern.md
   - ../../notes/session-multi-release-drift-signal.md
+  - ../../notes/pm-multiturn-dod-id-content-swap.md
 ---
 
 ## 배경/상황

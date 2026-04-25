@@ -4,12 +4,12 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 71
 captured_at: 2026-04-25
-status: inbox
+status: refined
 tags: [testing, roi, pure-function, regression, contract, sprint-contract, dod, test-strategy]
 related:
-  - ../notes/comment-contract-implementation-drift.md
+  - ./comment-contract-implementation-drift.md
   - ../meta/patterns/test-roi-rescope-pattern.md
-  - ../notes/fact-mode-unification-ux-regression.md
+  - ./fact-mode-unification-ux-regression.md
 ---
 
 ## 요약

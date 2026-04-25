@@ -13,6 +13,7 @@ related:
   - ../meta/patterns/cross-validate-after-policy-freeze.md
   - ./gitflow-drift-4tier-classifier.md
   - ./fourth-automation-mapping-layer.md
+  - ./monorepo-core-dist-stale.md
 ---
 
 ## 요약

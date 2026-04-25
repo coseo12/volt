@@ -11,6 +11,7 @@ related:
   - ../meta/patterns/browser-verify-script-pattern.md
   - ../meta/patterns/adr-prime-variant-pattern.md
   - ./fact-first-visibility-scale-trap.md
+  - ./fact-mode-unification-ux-regression.md
 ---
 
 ## 배경/상황

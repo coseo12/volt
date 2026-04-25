@@ -8,6 +8,7 @@ status: refined
 tags: [sprint-contract, test-roi, test-infrastructure, contract-in-comments, scope-adjustment, integration-test]
 related:
   - ./phased-release-split-pattern.md
+  - ../../notes/roi-test-skip-judgment-drift.md
 ---
 
 ## 요약

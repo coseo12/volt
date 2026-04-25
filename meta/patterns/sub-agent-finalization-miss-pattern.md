@@ -15,6 +15,7 @@ related:
   - ../../notes/comment-contract-implementation-drift.md
   - ../../notes/sub-agent-runtime-ssot-variance.md
   - ../../notes/session-multi-release-drift-signal.md
+  - ../../notes/pm-multiturn-dod-id-content-swap.md
 ---
 
 ## 배경/상황

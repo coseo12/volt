@@ -4,12 +4,12 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 76
 captured_at: 2026-04-25
-status: inbox
+status: refined
 tags: [pm-agent, multi-turn, dod-drift, sub-agent-orchestration, matrix-consistency, volt-34-followup]
 related:
   - ../meta/patterns/pm-sub-agent-multi-turn-round-drift.md
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md
-  - ../notes/ssot-json-field-sign-misread.md
+  - ./ssot-json-field-sign-misread.md
 ---
 
 ## 요약

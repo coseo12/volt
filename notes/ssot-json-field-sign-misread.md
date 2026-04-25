@@ -5,12 +5,12 @@ source_repo: coseo12/astro-simulator
 source_issue: 73
 merged_captures: [75]
 captured_at: 2026-04-25
-status: inbox
+status: refined
 tags: [ssot-json, sign-convention, main-orchestrator, self-check, report-first, bench-metric, bench-regression, sub-agent-reporting]
 related:
-  - ../notes/dod-fail-measurement-verify-first.md
-  - ../notes/sub-agent-runtime-ssot-variance.md
-  - ../notes/pm-multiturn-dod-id-content-swap.md
+  - ./dod-fail-measurement-verify-first.md
+  - ./sub-agent-runtime-ssot-variance.md
+  - ./pm-multiturn-dod-id-content-swap.md
 ---
 
 ## 요약

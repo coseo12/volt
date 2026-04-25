@@ -4,13 +4,13 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 70
 captured_at: 2026-04-25
-status: inbox
+status: refined
 tags: [monorepo, pnpm, build-cache, dev-server, qa, regression, workspace, dist]
 related:
-  - ../notes/lint-staged-gitignore-silent-revert.md
-  - ../notes/manifest-state-recovery-pattern.md
-  - ../notes/comment-contract-implementation-drift.md
-  - ../notes/state-atomicity-multi-layer-defense.md
+  - ./lint-staged-gitignore-silent-revert.md
+  - ./manifest-state-recovery-pattern.md
+  - ./comment-contract-implementation-drift.md
+  - ./state-atomicity-multi-layer-defense.md
 ---
 
 ## 요약

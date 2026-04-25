@@ -5,13 +5,13 @@ source_repo: coseo12/astro-simulator
 source_issue: 72
 merged_captures: [74]
 captured_at: 2026-04-25
-status: inbox
+status: refined
 tags: [ux-regression, adr-principle, fact-first, dod-gap, phase-handoff, billboard-marker, multi-phase-merge, rendering, ui-visibility]
 related:
-  - ../notes/fact-first-visibility-scale-trap.md
-  - ../notes/swiftshader-headless-pixel-freeze.md
-  - ../notes/lint-staged-gitignore-silent-revert.md
-  - ../notes/roi-test-skip-judgment-drift.md
+  - ./fact-first-visibility-scale-trap.md
+  - ./swiftshader-headless-pixel-freeze.md
+  - ./lint-staged-gitignore-silent-revert.md
+  - ./roi-test-skip-judgment-drift.md
 ---
 
 ## 요약

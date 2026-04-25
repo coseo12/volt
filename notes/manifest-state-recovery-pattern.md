@@ -12,6 +12,7 @@ related:
   - ./harness-downstream-prettier-drift.md
   - ./release-pr-merge-strategy.md
   - ./release-version-metadata-drift-guard.md
+  - ./monorepo-core-dist-stale.md
 ---
 
 ## 요약
