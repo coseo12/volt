@@ -4,14 +4,14 @@ type: report
 source_repo: coseo12/astro-simulator
 source_issue: 77
 captured_at: 2026-04-25
-status: inbox
+status: refined
 tags: [agents, workflow, sub-agent, qa, reviewer, headless, pixel-diff, regression-guard]
 related:
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md
-  - ../notes/swiftshader-headless-pixel-freeze.md
-  - ../notes/stale-dev-server-port-collision.md
+  - ./swiftshader-headless-pixel-freeze.md
+  - ./stale-dev-server-port-collision.md
   - ../meta/patterns/sub-agent-bg-process-leak-pattern.md
-  - ../notes/fact-mode-unification-ux-regression.md
+  - ./fact-mode-unification-ux-regression.md
 ---
 
 ## 배경/상황

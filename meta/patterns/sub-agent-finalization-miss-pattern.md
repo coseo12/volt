@@ -16,6 +16,7 @@ related:
   - ../../notes/sub-agent-runtime-ssot-variance.md
   - ../../notes/session-multi-release-drift-signal.md
   - ../../notes/pm-multiturn-dod-id-content-swap.md
+  - ../../notes/reviewer-qa-gate-skip-headless-self-pass.md
 ---
 
 ## 배경/상황

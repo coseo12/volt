@@ -12,6 +12,7 @@ related:
   - ../meta/patterns/adr-prime-variant-pattern.md
   - ./fact-first-visibility-scale-trap.md
   - ./fact-mode-unification-ux-regression.md
+  - ./reviewer-qa-gate-skip-headless-self-pass.md
 ---
 
 ## 배경/상황

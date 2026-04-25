@@ -9,6 +9,7 @@ tags: [sub-agent, process-management, cargo, background-process, workflow-patter
 related:
   - ./sub-agent-finalization-miss-pattern.md
   - ../../notes/long-test-ignore-fast-loop-template.md
+  - ../../notes/reviewer-qa-gate-skip-headless-self-pass.md
 ---
 
 ## 배경/상황

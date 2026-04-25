@@ -12,6 +12,7 @@ related:
   - ./swiftshader-headless-pixel-freeze.md
   - ./lint-staged-gitignore-silent-revert.md
   - ./roi-test-skip-judgment-drift.md
+  - ./reviewer-qa-gate-skip-headless-self-pass.md
 ---
 
 ## 요약

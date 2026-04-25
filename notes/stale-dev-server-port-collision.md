@@ -9,6 +9,7 @@ tags: [dev-server, sub-agent, background-process, cleanup, lsof, nextjs, hmr]
 related:
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md
   - ./lint-staged-gitignore-silent-revert.md
+  - ./reviewer-qa-gate-skip-headless-self-pass.md
 ---
 
 ## 배경/상황
