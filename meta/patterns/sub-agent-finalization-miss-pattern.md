@@ -9,6 +9,7 @@ tags: [sub-agent, workflow, claude-code-harness, dev-persona, qa-persona, finali
 related:
   - ./pm-sub-agent-multi-turn-round-drift.md
   - ./sub-agent-bg-process-leak-pattern.md
+  - ./agent-browser-chrome-zombie-pattern.md
   - ../../notes/github-auto-close-keyword-syntax.md
   - ../../notes/reviewer-cross-validate-5-step-loop.md
   - ../../notes/stale-dev-server-port-collision.md

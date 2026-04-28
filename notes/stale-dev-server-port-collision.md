@@ -8,6 +8,7 @@ status: refined
 tags: [dev-server, sub-agent, background-process, cleanup, lsof, nextjs, hmr]
 related:
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md
+  - ../meta/patterns/agent-browser-chrome-zombie-pattern.md
   - ./lint-staged-gitignore-silent-revert.md
   - ./reviewer-qa-gate-skip-headless-self-pass.md
 ---

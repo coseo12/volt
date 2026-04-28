@@ -11,6 +11,7 @@ related:
   - ./session-multi-release-drift-signal.md
   - ../meta/patterns/dogfooding-guard-self-violation-pattern.md
   - ./downstream-measurement-final-guard.md
+  - ./regression-guard-bootstrap-chicken-and-egg.md
 ---
 
 ## 요약

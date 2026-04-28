@@ -10,6 +10,7 @@ related:
   - ../meta/patterns/dogfooding-guard-self-violation-pattern.md
   - ./downstream-measurement-final-guard.md
   - ./pnpm-wasm-monorepo-upstream-fixture.md
+  - ./regression-guard-bootstrap-chicken-and-egg.md
 ---
 
 ## 요약

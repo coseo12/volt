@@ -15,6 +15,7 @@ related:
   - ./pnpm-wasm-monorepo-upstream-fixture.md
   - ./cross-validate-dod-self-contradiction.md
   - ./debug-script-over-static-analysis.md
+  - ./regression-guard-bootstrap-chicken-and-egg.md
 ---
 
 ## 요약

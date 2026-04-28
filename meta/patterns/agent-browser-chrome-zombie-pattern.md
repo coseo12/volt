@@ -4,12 +4,12 @@ type: pattern
 source_repo: coseo12/astro-simulator (R2 사이클 #361 / PR #363 / PR #365)
 source_issue: 79
 captured_at: 2026-04-28
-status: inbox
+status: refined
 tags: [agent-browser, process-leak, sub-agent-handoff, qa-agent, browser-test, ci-routine]
 related:
-  - ../meta/patterns/sub-agent-bg-process-leak-pattern.md
-  - ../meta/patterns/sub-agent-finalization-miss-pattern.md
-  - ../notes/stale-dev-server-port-collision.md
+  - ./sub-agent-bg-process-leak-pattern.md
+  - ./sub-agent-finalization-miss-pattern.md
+  - ../../notes/stale-dev-server-port-collision.md
 ---
 
 ## 배경/상황

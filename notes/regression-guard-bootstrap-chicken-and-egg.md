@@ -4,12 +4,12 @@ type: report
 source_repo: coseo12/astro-simulator
 source_issue: 78
 captured_at: 2026-04-28
-status: inbox
+status: refined
 tags: [chicken-and-egg, workspace-binary-dependency, monorepo, ci-infrastructure, ux-regression-guard, downstream-verification, retrospective, upstream-blindspot]
 related:
-  - ../notes/downstream-measurement-final-guard.md
-  - ../notes/downstream-structure-compat-checklist.md
-  - ../notes/pnpm-wasm-monorepo-upstream-fixture.md
+  - ./downstream-measurement-final-guard.md
+  - ./downstream-structure-compat-checklist.md
+  - ./pnpm-wasm-monorepo-upstream-fixture.md
 ---
 
 ## 배경/상황
