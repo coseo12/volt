@@ -4,10 +4,10 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 81
 captured_at: 2026-05-04
-status: inbox
+status: refined
 tags: [pr-pattern, adr, conflict-resolution, gitflow, sprint-pattern, monorepo]
 related:
-  - ../notes/lint-staged-gitignore-silent-revert.md
+  - ./lint-staged-gitignore-silent-revert.md
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md
 ---
 

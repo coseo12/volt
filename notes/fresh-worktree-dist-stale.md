@@ -4,10 +4,10 @@ type: knowledge
 source_repo: coseo12/astro-simulator (downstream)
 source_issue: 86
 captured_at: 2026-05-09
-status: inbox
+status: refined
 tags: [worktree, monorepo, dist, stale, pnpm]
 related:
-  - ../notes/monorepo-core-dist-stale.md
+  - ./monorepo-core-dist-stale.md
 ---
 
 ## 요약

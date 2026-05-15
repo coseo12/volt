@@ -12,6 +12,9 @@ related:
   - ./stale-dev-server-port-collision.md
   - ../meta/patterns/sub-agent-bg-process-leak-pattern.md
   - ./fact-mode-unification-ux-regression.md
+  - ./turbopack-namespace-reexport-ssr-chain.md
+  - ./adr-amendment-3way-markup-ssot.md
+  - ./agent-browser-eval-console-spy-limit.md
 ---
 
 ## 배경/상황

@@ -10,6 +10,9 @@ related:
   - ./sub-agent-bg-process-leak-pattern.md
   - ./sub-agent-finalization-miss-pattern.md
   - ../../notes/stale-dev-server-port-collision.md
+  - ../../notes/ssot-tracking-zombie-external-orthogonal-guards.md
+  - ./closing-issues-references-empirical-verify.md
+  - ../../notes/pgrep-af-self-match-false-positive.md
 ---
 
 ## 배경/상황

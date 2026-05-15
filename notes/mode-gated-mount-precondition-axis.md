@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator (downstream)
 source_issue: 87
 captured_at: 2026-05-09
-status: inbox
+status: refined
 tags: [ui-guard, adr, design-axis, R-Phase, mount]
 related: []
 ---

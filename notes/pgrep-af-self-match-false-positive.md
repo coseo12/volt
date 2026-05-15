@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 94
 captured_at: 2026-05-13
-status: inbox
+status: refined
 tags: [pgrep, ps, 좀비 검증, agent-browser, false-positive, volt-79]
 related:
   - ../meta/patterns/agent-browser-chrome-zombie-pattern.md

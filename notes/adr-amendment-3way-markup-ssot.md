@@ -4,11 +4,12 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 83
 captured_at: 2026-05-06
-status: inbox
+status: refined
 tags: [adr, amendment, documentation, ssot, traceability, markdown]
 related:
-  - ../notes/cross-validate-accept-vs-defer.md
-  - ../notes/reviewer-qa-gate-skip-headless-self-pass.md
+  - ./cross-validate-accept-vs-defer.md
+  - ./reviewer-qa-gate-skip-headless-self-pass.md
+  - ./adr-amendment-location-decision-tree.md
 ---
 
 ## 요약

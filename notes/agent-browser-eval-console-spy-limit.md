@@ -4,10 +4,10 @@ type: knowledge
 source_repo: coseo12/astro-simulator (downstream)
 source_issue: 88
 captured_at: 2026-05-09
-status: inbox
+status: refined
 tags: [agent-browser, headless, qa, console-spy, eval]
 related:
-  - ../notes/reviewer-qa-gate-skip-headless-self-pass.md
+  - ./reviewer-qa-gate-skip-headless-self-pass.md
 ---
 
 ## 요약

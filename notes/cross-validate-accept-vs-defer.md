@@ -15,6 +15,7 @@ related:
   - ./cross-validate-principle-declaration-bias.md
   - ./cross-validate-dod-self-contradiction.md
   - ./debug-script-over-static-analysis.md
+  - ./adr-amendment-3way-markup-ssot.md
 ---
 
 ## 요약

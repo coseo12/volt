@@ -11,6 +11,8 @@ related:
   - ./agent-browser-chrome-zombie-pattern.md
   - ../../notes/long-test-ignore-fast-loop-template.md
   - ../../notes/reviewer-qa-gate-skip-headless-self-pass.md
+  - ../../notes/ssot-tracking-zombie-external-orthogonal-guards.md
+  - ./closing-issues-references-empirical-verify.md
 ---
 
 ## 배경/상황

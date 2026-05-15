@@ -18,6 +18,7 @@ related:
   - https://github.com/coseo12/astro-simulator/pull/163
   - ./monorepo-core-dist-stale.md
   - ./fact-mode-unification-ux-regression.md
+  - ./adr-code-split-pr-conflict-pattern.md
 ---
 
 ## 배경/상황

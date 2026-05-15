@@ -4,10 +4,10 @@ type: knowledge
 source_repo: coseo12/astro-simulator (downstream)
 source_issue: 92
 captured_at: 2026-05-10
-status: inbox
+status: refined
 tags: [zombie-process, ssot-gap, defense-in-depth, dev-server, hook, ci-guard, sub-agent, port-binding]
 related:
-  - ../notes/stale-dev-server-port-collision.md
+  - ./stale-dev-server-port-collision.md
   - ../meta/patterns/sub-agent-bg-process-leak-pattern.md
   - ../meta/patterns/agent-browser-chrome-zombie-pattern.md
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md

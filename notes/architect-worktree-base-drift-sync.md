@@ -4,9 +4,10 @@ type: knowledge
 source_repo: coseo12/astro-simulator (downstream)
 source_issue: 84
 captured_at: 2026-05-09
-status: inbox
+status: refined
 tags: [sub-agent, worktree, architect, drift, gitflow]
-related: []
+related:
+  - ../meta/patterns/sub-agent-exit-worktree-drift-cross-persona.md
 ---
 
 ## 요약

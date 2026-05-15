@@ -4,11 +4,11 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 80
 captured_at: 2026-05-04
-status: inbox
+status: refined
 tags: [turbopack, nextjs, wasm, ssr, monorepo, module-graph, wasm-pack, pnpm-workspace]
 related:
-  - ../notes/monorepo-core-dist-stale.md
-  - ../notes/reviewer-qa-gate-skip-headless-self-pass.md
+  - ./monorepo-core-dist-stale.md
+  - ./reviewer-qa-gate-skip-headless-self-pass.md
 ---
 
 ## 요약

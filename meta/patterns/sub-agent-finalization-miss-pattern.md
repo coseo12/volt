@@ -18,6 +18,11 @@ related:
   - ../../notes/session-multi-release-drift-signal.md
   - ../../notes/pm-multiturn-dod-id-content-swap.md
   - ../../notes/reviewer-qa-gate-skip-headless-self-pass.md
+  - ../../notes/adr-code-split-pr-conflict-pattern.md
+  - ./sub-agent-exit-worktree-drift-cross-persona.md
+  - ../../notes/ssot-tracking-zombie-external-orthogonal-guards.md
+  - ./closing-issues-references-empirical-verify.md
+  - ../../notes/pgrep-af-self-match-false-positive.md
 ---
 
 ## 배경/상황

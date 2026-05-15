@@ -11,6 +11,8 @@ related:
   - ../meta/patterns/agent-browser-chrome-zombie-pattern.md
   - ./lint-staged-gitignore-silent-revert.md
   - ./reviewer-qa-gate-skip-headless-self-pass.md
+  - ./ssot-tracking-zombie-external-orthogonal-guards.md
+  - ../meta/patterns/closing-issues-references-empirical-verify.md
 ---
 
 ## 배경/상황

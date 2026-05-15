@@ -4,9 +4,10 @@ type: knowledge
 source_repo: coseo12/astro-simulator (downstream)
 source_issue: 91
 captured_at: 2026-05-09
-status: inbox
+status: refined
 tags: [adr, amendment, governance, decision-tree, architect]
-related: []
+related:
+  - ./adr-amendment-3way-markup-ssot.md
 ---
 
 ## 요약

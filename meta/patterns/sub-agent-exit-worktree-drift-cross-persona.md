@@ -4,10 +4,11 @@ type: pattern
 source_repo: coseo12/astro-simulator
 source_issue: 82
 captured_at: 2026-05-06
-status: inbox
+status: refined
 tags: [sub-agent, worktree, architect, pm, qa, ssot-9-fields, volt-24, isolation]
 related:
-  - ../meta/patterns/sub-agent-finalization-miss-pattern.md
+  - ./sub-agent-finalization-miss-pattern.md
+  - ../../notes/architect-worktree-base-drift-sync.md
 ---
 
 ## 배경/상황

@@ -4,13 +4,13 @@ type: pattern
 source_repo: coseo12/astro-simulator
 source_issue: 93
 captured_at: 2026-05-13
-status: inbox
+status: refined
 tags: [sub-agent, 박제 검증, GitHub linkage, auto-close, volt-24]
 related:
-  - ../meta/patterns/sub-agent-finalization-miss-pattern.md
-  - ../notes/stale-dev-server-port-collision.md
-  - ../meta/patterns/sub-agent-bg-process-leak-pattern.md
-  - ../meta/patterns/agent-browser-chrome-zombie-pattern.md
+  - ./sub-agent-finalization-miss-pattern.md
+  - ../../notes/stale-dev-server-port-collision.md
+  - ./sub-agent-bg-process-leak-pattern.md
+  - ./agent-browser-chrome-zombie-pattern.md
 ---
 
 ## 배경/상황

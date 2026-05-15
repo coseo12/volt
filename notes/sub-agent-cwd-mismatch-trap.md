@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator (downstream)
 source_issue: 85
 captured_at: 2026-05-09
-status: inbox
+status: refined
 tags: [sub-agent, cwd, monorepo, build, pnpm]
 related: []
 ---

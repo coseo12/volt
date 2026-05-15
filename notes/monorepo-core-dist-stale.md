@@ -11,6 +11,8 @@ related:
   - ./manifest-state-recovery-pattern.md
   - ./comment-contract-implementation-drift.md
   - ./state-atomicity-multi-layer-defense.md
+  - ./turbopack-namespace-reexport-ssr-chain.md
+  - ./fresh-worktree-dist-stale.md
 ---
 
 ## 요약
