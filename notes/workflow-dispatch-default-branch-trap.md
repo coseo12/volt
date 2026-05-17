@@ -6,7 +6,10 @@ source_issue: 45
 captured_at: 2026-04-19
 status: refined
 tags: [github-actions, workflow_dispatch, pull-request, permissions, gitflow, release]
-related: []
+related:
+  - ./workflow-dispatch-release-acceleration-trap.md
+  - ./yaml-on-boolean-coercion-trap.md
+  - ./adr-trigger-discussion-issue-pattern.md
 ---
 
 ## 배경/상황

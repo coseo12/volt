@@ -4,12 +4,13 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 105
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [adr, trigger, discussion-issue, deadline, automation, workflow]
 related:
-  - ../notes/workflow-dispatch-default-branch-trap.md
-  - ../notes/yaml-on-boolean-coercion-trap.md
-  - ../notes/workflow-dispatch-release-acceleration-trap.md
+  - ./workflow-dispatch-default-branch-trap.md
+  - ./yaml-on-boolean-coercion-trap.md
+  - ./workflow-dispatch-release-acceleration-trap.md
+  - ./silent-guard-relaxation-trade-off.md
 ---
 
 ## 요약

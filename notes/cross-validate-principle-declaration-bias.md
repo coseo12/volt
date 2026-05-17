@@ -15,6 +15,7 @@ related:
   - ./sub-agent-runtime-ssot-variance.md
   - ../meta/patterns/dogfooding-guard-self-violation-pattern.md
   - ./claude-bias-5th-ecosystem-assumption.md
+  - ./cross-validate-plan-mode-bypass-guard.md
 ---
 
 ## 요약

@@ -4,11 +4,11 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 103
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [yaml, block-scalar, bash-heredoc, indentation, github-actions, parser-quirk]
 related:
-  - ../notes/downstream-structure-compat-checklist.md
-  - ../notes/yaml-on-boolean-coercion-trap.md
+  - ./downstream-structure-compat-checklist.md
+  - ./yaml-on-boolean-coercion-trap.md
 ---
 
 ## 요약

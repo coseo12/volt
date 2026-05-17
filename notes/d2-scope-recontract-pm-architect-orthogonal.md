@@ -4,11 +4,11 @@ type: report
 source_repo: coseo12/astro-simulator
 source_issue: 110
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [pm-recontract, scope-renegotiation, architect-pm-orthogonal, dod-revision, design-elegance]
 related:
   - ../meta/patterns/pm-sub-agent-multi-turn-round-drift.md
-  - ../notes/cross-validate-plan-mode-bypass-guard.md
+  - ./cross-validate-plan-mode-bypass-guard.md
 ---
 
 ## 배경/상황

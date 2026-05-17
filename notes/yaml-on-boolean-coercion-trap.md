@@ -4,11 +4,13 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 102
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [yaml, github-actions, boolean-coercion, on-keyword, workflow-trigger, parser-quirk]
 related:
-  - ../notes/workflow-dispatch-default-branch-trap.md
-  - ../notes/workflow-dispatch-release-acceleration-trap.md
+  - ./workflow-dispatch-default-branch-trap.md
+  - ./workflow-dispatch-release-acceleration-trap.md
+  - ./yaml-heredoc-indent-trap.md
+  - ./adr-trigger-discussion-issue-pattern.md
 ---
 
 ## 요약

@@ -4,12 +4,12 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 112
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [meta-risk, guard-self-test, architect-cross-validate, dev-d4, dogfooding-success]
 related:
-  - ../notes/cross-validate-plan-mode-bypass-guard.md
-  - ../notes/self-pin-guard-self-consistency-meta.md
-  - ../notes/meta-measurement-tool-self-application.md
+  - ./cross-validate-plan-mode-bypass-guard.md
+  - ./self-pin-guard-self-consistency-meta.md
+  - ./meta-measurement-tool-self-application.md
 ---
 
 ## 요약

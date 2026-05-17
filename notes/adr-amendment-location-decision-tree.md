@@ -8,6 +8,7 @@ status: refined
 tags: [adr, amendment, governance, decision-tree, architect]
 related:
   - ./adr-amendment-3way-markup-ssot.md
+  - ./adr-amendment-form-b-standard.md
 ---
 
 ## 요약

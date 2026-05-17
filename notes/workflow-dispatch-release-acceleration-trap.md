@@ -4,10 +4,12 @@ type: report
 source_repo: coseo12/astro-simulator
 source_issue: 97
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [github-actions, workflow-dispatch, release-cadence, gitflow, accidental-trigger]
 related:
-  - ../notes/workflow-dispatch-default-branch-trap.md
+  - ./workflow-dispatch-default-branch-trap.md
+  - ./yaml-on-boolean-coercion-trap.md
+  - ./adr-trigger-discussion-issue-pattern.md
 ---
 
 ## 배경/상황

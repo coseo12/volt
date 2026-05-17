@@ -4,12 +4,15 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 100
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [self-consistency, meta-verification, defense-in-depth, dogfooding, multi-stage-confirmation]
 related:
-  - ../notes/cross-validate-plan-mode-bypass-guard.md
+  - ./cross-validate-plan-mode-bypass-guard.md
   - ../meta/patterns/closing-issues-references-empirical-verify.md
-  - ../notes/sub-agent-runtime-ssot-variance.md
+  - ./sub-agent-runtime-ssot-variance.md
+  - ./architect-develop-pull-omission.md
+  - ./meta-measurement-tool-self-application.md
+  - ./meta-risk-bypass-2stage-zero-fire.md
 ---
 
 ## 요약

@@ -15,6 +15,7 @@ related:
   - ./turbopack-namespace-reexport-ssr-chain.md
   - ./adr-amendment-3way-markup-ssot.md
   - ./agent-browser-eval-console-spy-limit.md
+  - ../meta/patterns/regression-guard-3stage-simulation.md
 ---
 
 ## 배경/상황

@@ -4,8 +4,10 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 95
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [bash, macOS, shell-compat, verify-script, ssot-guard, ci-portability]
+related:
+  - ./bash-script-isolation-dynamic-test.md
 ---
 
 ## 요약

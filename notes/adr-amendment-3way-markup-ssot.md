@@ -10,6 +10,7 @@ related:
   - ./cross-validate-accept-vs-defer.md
   - ./reviewer-qa-gate-skip-headless-self-pass.md
   - ./adr-amendment-location-decision-tree.md
+  - ./adr-amendment-form-b-standard.md
 ---
 
 ## 요약

@@ -13,6 +13,8 @@ related:
   - ../meta/patterns/cross-validate-after-policy-freeze.md
   - ./cross-validate-accept-vs-defer.md
   - ./cross-validate-dod-self-contradiction.md
+  - ../meta/patterns/regression-guard-3stage-simulation.md
+  - ./measurement-first-architect-dev-handoff.md
 ---
 
 ## 요약

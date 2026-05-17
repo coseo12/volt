@@ -4,12 +4,12 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 101
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [measurement-first, architect-dev-handoff, false-positive, multi-or, identifier-precision]
 related:
-  - ../notes/dod-fail-measurement-verify-first.md
+  - ./dod-fail-measurement-verify-first.md
   - ../meta/patterns/measurement-verify-step4-data-integrity.md
-  - ../notes/debug-script-over-static-analysis.md
+  - ./debug-script-over-static-analysis.md
 ---
 
 ## 요약

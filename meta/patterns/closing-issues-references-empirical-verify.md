@@ -11,6 +11,8 @@ related:
   - ../../notes/stale-dev-server-port-collision.md
   - ./sub-agent-bg-process-leak-pattern.md
   - ./agent-browser-chrome-zombie-pattern.md
+  - ../../notes/self-pin-guard-self-consistency-meta.md
+  - ../../notes/meta-measurement-tool-self-application.md
 ---
 
 ## 배경/상황

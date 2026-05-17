@@ -4,13 +4,18 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 99
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [cross-validate, gemini, plan-mode-bypass, snapshot-rollback, outcome-schema, defense-in-depth]
 related:
-  - ../notes/external-tool-claim-empirical-verify.md
-  - ../notes/cross-validate-principle-declaration-bias.md
-  - ../notes/cross-validate-dod-self-contradiction.md
-  - ../notes/sub-agent-runtime-ssot-variance.md
+  - ./external-tool-claim-empirical-verify.md
+  - ./cross-validate-principle-declaration-bias.md
+  - ./cross-validate-dod-self-contradiction.md
+  - ./sub-agent-runtime-ssot-variance.md
+  - ./self-pin-guard-self-consistency-meta.md
+  - ./strict-assertion-vs-fallback-self-contradiction.md
+  - ./architect-develop-pull-omission.md
+  - ./d2-scope-recontract-pm-architect-orthogonal.md
+  - ./meta-risk-bypass-2stage-zero-fire.md
 ---
 
 ## 요약

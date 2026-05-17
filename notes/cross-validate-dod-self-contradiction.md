@@ -12,6 +12,8 @@ related:
   - ./external-tool-claim-empirical-verify.md
   - ./downstream-measurement-final-guard.md
   - ./debug-script-over-static-analysis.md
+  - ./cross-validate-plan-mode-bypass-guard.md
+  - ./strict-assertion-vs-fallback-self-contradiction.md
 ---
 
 ## 배경/상황

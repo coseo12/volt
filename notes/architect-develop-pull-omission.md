@@ -4,12 +4,12 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 108
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [architect, sub-agent, develop-pull, worktree-drift, stale-script, dev-handoff]
 related:
-  - ../notes/architect-worktree-base-drift-sync.md
-  - ../notes/cross-validate-plan-mode-bypass-guard.md
-  - ../notes/self-pin-guard-self-consistency-meta.md
+  - ./architect-worktree-base-drift-sync.md
+  - ./cross-validate-plan-mode-bypass-guard.md
+  - ./self-pin-guard-self-consistency-meta.md
 ---
 
 ## 요약

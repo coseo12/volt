@@ -4,11 +4,12 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 98
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [bash, testing, dynamic-test, mktemp, environment-isolation, verify-script]
 related:
-  - ../notes/macos-bash-3-2-associative-array.md
+  - ./macos-bash-3-2-associative-array.md
   - ../meta/patterns/regression-guard-3stage-simulation.md
+  - ./work-order-grep-backtick-fidelity.md
 ---
 
 ## 요약

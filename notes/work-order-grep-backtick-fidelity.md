@@ -4,12 +4,12 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 111
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [work-order, sub-agent-handoff, ssot-fidelity, grep-backtick-consistency, dev-precision]
 related:
   - ../meta/patterns/regression-guard-3stage-simulation.md
-  - ../notes/bash-script-isolation-dynamic-test.md
-  - ../notes/sub-agent-runtime-ssot-variance.md
+  - ./bash-script-isolation-dynamic-test.md
+  - ./sub-agent-runtime-ssot-variance.md
 ---
 
 ## 요약

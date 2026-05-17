@@ -4,12 +4,14 @@ type: pattern
 source_repo: coseo12/astro-simulator
 source_issue: 96
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [ci-guard, regression-test, drift-detection, dod-verification, in-pr-simulation]
 related:
-  - ../notes/downstream-measurement-final-guard.md
-  - ../notes/debug-script-over-static-analysis.md
-  - ../notes/reviewer-qa-gate-skip-headless-self-pass.md
+  - ../../notes/downstream-measurement-final-guard.md
+  - ../../notes/debug-script-over-static-analysis.md
+  - ../../notes/reviewer-qa-gate-skip-headless-self-pass.md
+  - ../../notes/bash-script-isolation-dynamic-test.md
+  - ../../notes/work-order-grep-backtick-fidelity.md
 ---
 
 ## 배경/상황

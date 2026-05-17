@@ -8,6 +8,7 @@ status: refined
 tags: [measurement-methodology, sprint-contract, data-integrity, debug-workflow, volt-32-extension]
 related:
   - ../../notes/dod-fail-measurement-verify-first.md
+  - ../../notes/measurement-first-architect-dev-handoff.md
 ---
 
 ## 배경/상황

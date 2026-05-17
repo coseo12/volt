@@ -14,6 +14,7 @@ related:
   - ../meta/patterns/dogfooding-guard-self-violation-pattern.md
   - ./downstream-measurement-final-guard.md
   - ./cross-validate-dod-self-contradiction.md
+  - ./cross-validate-plan-mode-bypass-guard.md
 ---
 
 ## 요약

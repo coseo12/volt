@@ -10,6 +10,7 @@ related:
   - ./comment-contract-implementation-drift.md
   - ../meta/patterns/test-roi-rescope-pattern.md
   - ./fact-mode-unification-ux-regression.md
+  - ./silent-guard-relaxation-trade-off.md
 ---
 
 ## 요약

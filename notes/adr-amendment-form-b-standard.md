@@ -4,11 +4,11 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 104
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [adr, amendment, document-pattern, ssot, decision-record]
 related:
-  - ../notes/adr-amendment-3way-markup-ssot.md
-  - ../notes/adr-amendment-location-decision-tree.md
+  - ./adr-amendment-3way-markup-ssot.md
+  - ./adr-amendment-location-decision-tree.md
 ---
 
 ## 요약

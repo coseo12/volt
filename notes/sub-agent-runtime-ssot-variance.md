@@ -13,6 +13,10 @@ related:
   - ./release-version-metadata-drift-guard.md
   - ./ci-multi-language-design-4-principles.md
   - ./ssot-json-field-sign-misread.md
+  - ./cross-validate-plan-mode-bypass-guard.md
+  - ./self-pin-guard-self-consistency-meta.md
+  - ./meta-measurement-tool-self-application.md
+  - ./work-order-grep-backtick-fidelity.md
 ---
 
 ## 요약

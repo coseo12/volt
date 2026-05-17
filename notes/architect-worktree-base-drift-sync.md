@@ -8,6 +8,7 @@ status: refined
 tags: [sub-agent, worktree, architect, drift, gitflow]
 related:
   - ../meta/patterns/sub-agent-exit-worktree-drift-cross-persona.md
+  - ./architect-develop-pull-omission.md
 ---
 
 ## 요약

@@ -4,11 +4,11 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 106
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [trade-off, silent-guard, single-operator, threshold-tuning, amendment]
 related:
-  - ../notes/adr-trigger-discussion-issue-pattern.md
-  - ../notes/roi-test-skip-judgment-drift.md
+  - ./adr-trigger-discussion-issue-pattern.md
+  - ./roi-test-skip-judgment-drift.md
 ---
 
 ## 요약

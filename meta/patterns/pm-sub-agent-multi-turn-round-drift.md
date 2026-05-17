@@ -10,6 +10,7 @@ related:
   - ./sub-agent-finalization-miss-pattern.md
   - ../../notes/session-multi-release-drift-signal.md
   - ../../notes/pm-multiturn-dod-id-content-swap.md
+  - ../../notes/d2-scope-recontract-pm-architect-orthogonal.md
 ---
 
 ## 배경/상황

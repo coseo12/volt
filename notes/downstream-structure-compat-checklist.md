@@ -11,6 +11,7 @@ related:
   - ./downstream-measurement-final-guard.md
   - ./pnpm-wasm-monorepo-upstream-fixture.md
   - ./regression-guard-bootstrap-chicken-and-egg.md
+  - ./yaml-heredoc-indent-trap.md
 ---
 
 ## 요약

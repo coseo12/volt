@@ -4,12 +4,12 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 107
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [strict-assertion, fallback, self-contradiction, drift-guard, fail-fast, design-tension]
 related:
-  - ../notes/comment-contract-implementation-drift.md
-  - ../notes/cross-validate-dod-self-contradiction.md
-  - ../notes/cross-validate-plan-mode-bypass-guard.md
+  - ./comment-contract-implementation-drift.md
+  - ./cross-validate-dod-self-contradiction.md
+  - ./cross-validate-plan-mode-bypass-guard.md
 ---
 
 ## 요약

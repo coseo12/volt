@@ -15,6 +15,7 @@ related:
   - ./hidden-constant-proportion-drift.md
   - ./monorepo-core-dist-stale.md
   - ./roi-test-skip-judgment-drift.md
+  - ./strict-assertion-vs-fallback-self-contradiction.md
 ---
 
 ## 요약

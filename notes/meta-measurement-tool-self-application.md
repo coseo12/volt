@@ -4,12 +4,13 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 109
 captured_at: 2026-05-17
-status: inbox
+status: refined
 tags: [meta-measurement, self-application, deterministic-consistency, dogfooding, guard-introspection]
 related:
-  - ../notes/sub-agent-runtime-ssot-variance.md
-  - ../notes/self-pin-guard-self-consistency-meta.md
+  - ./sub-agent-runtime-ssot-variance.md
+  - ./self-pin-guard-self-consistency-meta.md
   - ../meta/patterns/closing-issues-references-empirical-verify.md
+  - ./meta-risk-bypass-2stage-zero-fire.md
 ---
 
 ## 요약
