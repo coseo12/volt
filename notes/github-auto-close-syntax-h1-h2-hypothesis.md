@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/harness-setting
 source_issue: 65
 captured_at: 2026-04-22
-status: inbox
+status: refined
 tags: [github, auto-close, closing-keyword, syntax, parsing, h1-hypothesis, h2-hypothesis, statistical-baseline]
 related:
   - ./github-auto-close-keyword-syntax.md

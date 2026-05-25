@@ -10,6 +10,7 @@ related:
   - ../meta/patterns/closing-issues-references-empirical-verify.md
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md
   - ./closing-refs-base-develop-32nd-reproduction.md
+  - ./github-auto-close-syntax-h1-h2-hypothesis.md
 ---
 
 ## 요약

@@ -8,6 +8,7 @@ status: refined
 tags: [github, auto-close, commit-message, pr, parsing, syntax]
 related:
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md
+  - ./github-auto-close-syntax-h1-h2-hypothesis.md
 ---
 
 ## 요약

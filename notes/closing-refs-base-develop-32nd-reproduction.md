@@ -9,6 +9,7 @@ tags: [github, auto-close, closing-keyword, base-develop, default-branch, statis
 related:
   - ./closing-refs-base-develop-trap.md
   - ../meta/patterns/closing-issues-references-empirical-verify.md
+  - ./github-auto-close-syntax-h1-h2-hypothesis.md
 ---
 
 ## 요약
