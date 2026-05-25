@@ -11,6 +11,7 @@ related:
   - ./yaml-on-boolean-coercion-trap.md
   - ./workflow-dispatch-release-acceleration-trap.md
   - ./silent-guard-relaxation-trade-off.md
+  - ./adr-z-pattern-option-a-first-adoption.md
 ---
 
 ## 요약

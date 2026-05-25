@@ -4,11 +4,11 @@ type: report
 source_repo: coseo12/astro-simulator
 source_issue: 118
 captured_at: 2026-05-25
-status: inbox
+status: refined
 tags: [r-phase, dod-pass-not-product, measurement-only, lod, visual-fidelity, amendment-rounds, forensic-adr, sub-agent-orchestration]
 related:
-  - ../notes/fact-mode-unification-ux-regression.md
-  - ../notes/reviewer-qa-gate-skip-headless-self-pass.md
+  - ./fact-mode-unification-ux-regression.md
+  - ./reviewer-qa-gate-skip-headless-self-pass.md
 ---
 
 ## 배경/상황

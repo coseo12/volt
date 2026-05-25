@@ -4,12 +4,12 @@ type: report
 source_repo: coseo12/astro-simulator
 source_issue: 116
 captured_at: 2026-05-25
-status: inbox
+status: refined
 tags: [adr-trigger, phase-2-start, harness-managed-divergent, option-a, upstream-contribution, retrospective]
 related:
-  - ../notes/adr-trigger-discussion-issue-pattern.md
-  - ../notes/silent-guard-relaxation-trade-off.md
-  - ../notes/adr-amendment-form-b-standard.md
+  - ./adr-trigger-discussion-issue-pattern.md
+  - ./silent-guard-relaxation-trade-off.md
+  - ./adr-amendment-form-b-standard.md
 ---
 
 ## 배경/상황

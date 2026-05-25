@@ -13,6 +13,7 @@ related:
   - ./lint-staged-gitignore-silent-revert.md
   - ./roi-test-skip-judgment-drift.md
   - ./reviewer-qa-gate-skip-headless-self-pass.md
+  - ./r4-amendment-rounds-fact-vs-perception.md
 ---
 
 ## 요약

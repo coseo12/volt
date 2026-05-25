@@ -10,6 +10,7 @@ related:
   - ./cross-validate-plan-mode-bypass-guard.md
   - ./self-pin-guard-self-consistency-meta.md
   - ./meta-measurement-tool-self-application.md
+  - ./memory-keyword-only-capture-trap.md
 ---
 
 ## 요약

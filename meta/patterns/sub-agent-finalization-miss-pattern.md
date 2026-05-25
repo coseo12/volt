@@ -23,6 +23,7 @@ related:
   - ../../notes/ssot-tracking-zombie-external-orthogonal-guards.md
   - ./closing-issues-references-empirical-verify.md
   - ../../notes/pgrep-af-self-match-false-positive.md
+  - ../../notes/closing-refs-base-develop-trap.md
 ---
 
 ## 배경/상황

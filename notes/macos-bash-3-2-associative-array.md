@@ -8,6 +8,7 @@ status: refined
 tags: [bash, macOS, shell-compat, verify-script, ssot-guard, ci-portability]
 related:
   - ./bash-script-isolation-dynamic-test.md
+  - ./gh-cli-spawn-stdin-shell-metachar.md
 ---
 
 ## 요약

@@ -4,11 +4,11 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 114
 captured_at: 2026-05-25
-status: inbox
+status: refined
 tags: [nodejs, gh-cli, shell-escape, execsync, spawnsync, stdin, markdown-body, comment-automation]
 related:
-  - ../notes/macos-bash-3-2-associative-array.md
-  - ../notes/yaml-heredoc-indent-trap.md
+  - ./macos-bash-3-2-associative-array.md
+  - ./yaml-heredoc-indent-trap.md
 ---
 
 ## 요약

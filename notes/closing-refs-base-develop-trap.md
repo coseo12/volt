@@ -4,7 +4,7 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 115
 captured_at: 2026-05-25
-status: inbox
+status: refined
 tags: [github, auto-close, closing-keyword, base-develop, default-branch, gitflow, closing-issues-references]
 related:
   - ../meta/patterns/closing-issues-references-empirical-verify.md

@@ -4,10 +4,10 @@ type: report
 source_repo: coseo12/astro-simulator
 source_issue: 113
 captured_at: 2026-05-25
-status: inbox
+status: refined
 tags: [memory-anti-pattern, keyword-only-capture, context-loss, knowledge-decay, capture-volt-quality]
 related:
-  - ../notes/meta-risk-bypass-2stage-zero-fire.md
+  - ./meta-risk-bypass-2stage-zero-fire.md
 ---
 
 ## 배경/상황

@@ -9,6 +9,7 @@ tags: [adr, amendment, document-pattern, ssot, decision-record]
 related:
   - ./adr-amendment-3way-markup-ssot.md
   - ./adr-amendment-location-decision-tree.md
+  - ./adr-z-pattern-option-a-first-adoption.md
 ---
 
 ## 요약

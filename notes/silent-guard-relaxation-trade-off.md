@@ -9,6 +9,7 @@ tags: [trade-off, silent-guard, single-operator, threshold-tuning, amendment]
 related:
   - ./adr-trigger-discussion-issue-pattern.md
   - ./roi-test-skip-judgment-drift.md
+  - ./adr-z-pattern-option-a-first-adoption.md
 ---
 
 ## 요약

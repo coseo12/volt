@@ -13,6 +13,8 @@ related:
   - ./agent-browser-chrome-zombie-pattern.md
   - ../../notes/self-pin-guard-self-consistency-meta.md
   - ../../notes/meta-measurement-tool-self-application.md
+  - ../../notes/closing-refs-base-develop-trap.md
+  - ../../notes/closing-refs-base-develop-32nd-reproduction.md
 ---
 
 ## 배경/상황

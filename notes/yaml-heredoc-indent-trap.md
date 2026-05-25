@@ -9,6 +9,7 @@ tags: [yaml, block-scalar, bash-heredoc, indentation, github-actions, parser-qui
 related:
   - ./downstream-structure-compat-checklist.md
   - ./yaml-on-boolean-coercion-trap.md
+  - ./gh-cli-spawn-stdin-shell-metachar.md
 ---
 
 ## 요약
