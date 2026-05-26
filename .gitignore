@@ -17,3 +17,6 @@ Thumbs.db
 *.swo
 .vscode/
 .idea/
+
+# 외부 도구 (사용자별/기기별)
+.antigravitycli/
