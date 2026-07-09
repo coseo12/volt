@@ -821,34 +821,58 @@ tags: [operations, meta, volt-itself]
 
 ---
 
+## 2026-07-09 — 33차 배치(#119~#120)
+
+**처리량**: 2건 (knowledge 2) — `notes/ 2건` (meta/* 0건). astro-simulator downstream 단독 — 3D 렌더링 도메인(#119 follow-camera 한 프레임 lag, onBeforeRender worldMatrix 미갱신) + SSoT drift 도메인(#120 흩어진 동일 상수 → 데이터 메타 SSoT + 자동 생성/정적 가드 근본 제거).
+
+**관찰**:
+- **정제 지연 35~36일 — 정규 워크플로 대상 최장 지연 신기록**: #119 캡처 2026-06-03 → 정제 2026-07-09 (36일), #120 캡처 2026-06-04 → 정제 (35일). 32차 #65 34일 지연은 **워크플로 이전 누락 회수** 특수 사유였으나, 33차 2건은 **capture 라벨 정상 부착된 정규 워크플로 대상** — 즉 정규 대상 최장 지연 신기록. 31차까지 관측된 휴지+일괄 정제 평균(6.83~7.47일)의 약 5배.
+- **캡처 휴지+일괄 정제 운영 모드 3회차 관찰 달성 — compile 규약 충족**: 29차(7.47일 평균) + 31차(6.83일 평균) + 33차(35.5일 평균) = 3회 관찰. compile 규약 "3회 이상 관찰 시 박제" 충족 도래. 단 33차 휴지 기간이 앞 2회의 약 5배로 편차가 커 "휴지+일괄" 모드 내에서도 휴지 길이 분포가 넓다는 새 관찰.
+- **babylon 3D 렌더링 클러스터 4노트 형성 (#119 합류)**: 기존 babylon 렌더링 3노트(babylon-postprocess-alpha-silent-failure / babylon-v9-wgsl-postprocess-declarations / wgsl-texture-sample-uniform-control-flow, 상호 cross-link) 에 #119 follow-camera 합류. #119 는 alpha-silent-failure + v9-wgsl-declarations 2노트 + downstream-measurement-final-guard(검증 비대칭) 참조. babylon/3D 렌더링 도메인 단일 클러스터 4노트 규모.
+- **#120 SSoT/drift/data-not-code 클러스터 mini-hub (단일 노트 4개 동시 참조)**: hidden-constant-proportion-drift(은닉 상수 변형) + new-data-not-new-code-adr-prediction(신규 데이터≠신규 코드) + ssot-tracking-zombie-external-orthogonal-guards(직교 가드) + meta/patterns/regression-guard-3stage-simulation(3중 시뮬) 4노트 동시 참조. hidden-constant ↔ new-data-not-new-code 는 기존 상호 링크 — #120 가 notes/·meta/patterns/ 교차로 4노트를 잇는 mini-hub.
+- **자기참조 2/2 (100%) — 31차·32차 100% 유지**: #119 babylon 렌더링 클러스터 + #120 SSoT drift 클러스터 모두 기존 클러스터 친화적. 신규 독립 노트 0.
+- **본문 교정 0건 — 20배치 연속**: knowledge 2건 모두 표준 헤더(### 요약 / ### 본문 / ### 관련 노트/링크) 준수, ### → ## 변환만 적용.
+- **frontmatter 정규화 0건 · 헤더 포맷 변형 0건**: 2건 모두 type:knowledge 단일 정상, 표준 헤더 준수.
+- **역참조 백필 7개 노트 · 7 링크 — 27배치 연속 백필**: #120 → hidden-constant-proportion-drift / new-data-not-new-code-adr-prediction / ssot-tracking-zombie-external-orthogonal-guards / meta/patterns/regression-guard-3stage-simulation 4노트. #119 → babylon-postprocess-alpha-silent-failure / babylon-v9-wgsl-postprocess-declarations / downstream-measurement-final-guard 3노트.
+- **astro-simulator 단독 지속**: 33차 astro 2건. harness 5월 활동은 32차 누락 회수 1건 뿐 — 신규 활동 정체 지속.
+- **분류 애매 케이스 0** (33차 2건 모두 knowledge 라벨 명확).
+
+**시그널**:
+- **캡처 휴지+일괄 정제 운영 모드 compile 규약 3회 충족 — AGENTS.md 박제 시점 도래**: 29차+31차+33차 3회 관찰. 다만 휴지 길이가 6.83~7.47일(29·31차) vs 35.5일(33차)로 약 5배 편차 — "휴지+일괄" 모드는 휴지 기간이 단일 값이 아닌 **넓은 분포**를 가진다는 것이 3회차의 핵심 발견. AGENTS.md 박제 시 "휴지 기간 범위(약 1주~1개월+)" 명시 필요. 양면 운영 모드(즉시 정제 vs 휴지+일괄)에서 "휴지+일괄"의 트리거·기간 변동성 자체가 후속 관찰 축.
+- **정규 워크플로 대상 월 단위 지연 발생 — 정제 지연 트리거 실질 상승**: 32차(누락 회수 34일)에 이어 33차(정규 35~36일)로 34일+ 지연이 2배치 연속. 32차는 특수 사유였으나 33차는 정규 대상 — 정규 워크플로도 월 단위 지연이 발생할 수 있음이 실증. 판단 트리거 "정제 지연 평균 3일 이상"은 이미 충족 상태이나, 휴지+일괄 모드의 평균이 이번 배치로 크게 상승.
+- **babylon/3D 렌더링 클러스터 라벨링 후보 (4노트)**: babylon 렌더링 3노트 + #119 = 4노트. cross-validate(8)·sub-agent(17)·ADR governance(8) 다음, workflow_dispatch/YAML(5)·closing-refs(4)·회고/retrospective(5) 급 규모. `subject-cluster:babylon-rendering` 박제 후보 — AGENTS.md 백로그 추가.
+- **AGENTS.md 박제 백로그 10건 적체** (32차 9건 + babylon/3D 렌더링 클러스터 라벨 신규): sub-agent 메타 분류(최우선) + astro 활성화 주기(최우선) + 클러스터 형성 경로 2종(+(C) 장기 누적) + 본문 인용 예외 + **캡처 휴지/즉시 정제 양면 운영 모드(compile 충족 — 박제 착수 시점)** + 신규 노트 mini-hub 휴리스틱 + retrospective 시리즈화 + 회고 도메인 클러스터 라벨 + 워크플로 이전 누락 이슈 정기 점검 + **babylon/3D 렌더링 클러스터 라벨**. 최우선: sub-agent 메타 분류 + astro 활성화 주기 + 캡처 휴지/즉시 정제 양면 운영 모드(compile 충족).
+
+---
+
 ## 판단 재료 누적 현황
 
 자동화 도입 결정을 위해 누적해야 할 지표:
 
 | 지표 | 현재 | 비고 |
 |---|---|---|
-| 누적 처리 건수 | **118** | +1 (#65, 32차 knowledge 1 — GitHub auto-close 비결정 H1/H2 syntax 가설, 워크플로 이전 누락 이슈 회수 첫 사례) |
-| 본문 교정 발생률 | 2/118 (2%) | 32차 교정 0 — **19배치 연속** 원문 충실 캡처 |
-| 통합 캡처 건수 | **2** (26차 신규) | 변동 없음 — 32차 미발생 |
-| frontmatter 교정 발생률 | 1/118 (1%) | 변동 없음 — 32차 type:knowledge 단일 정상 |
-| 분류 애매 케이스 | 0 | 32차 1건 knowledge 명확 (knowledge·report 양쪽 라벨 → AGENTS.md 의사결정 트리상 knowledge 우선 단일 정규화) |
-| 헤더 이름 규약 일탈 | 2/118 (2%) | 변동 없음 — 32차 표준 헤더 준수 |
-| 헤더 포맷 변형 | **5/118 (4%)** | 변동 없음 — 32차 변형 없음 |
-| 정제 지연(inbox 체류) | 당일 **78** / 익일 **18** / 2일+ **22** / **누락 회수 1(34일)** | +1: 32차 #65 1건 **34일 지연 (2026-04-22 캡처 → 2026-05-26 정제) — 단일 노트 최대 지연 신기록**. 단 **워크플로 이전 누락 회수** 특수 사유로 별도 버킷 분리 박제 — 운영 모드(즉시 정제 vs 휴지+일괄) 양면 가설 평균 계산 시 누락 회수 제외. compile 규약 3회 관찰 여전히 1회 남음 (29차+31차 2회) |
-| 캡처 버스트 | 세션당 1~**18건** | 변동 없음 — 32차 1건 |
-| 출처 레포 다양성 | **2종**(astro-simulator **90**, harness-setting **28**) | 3종 이상 시 재평가 — 32차 harness 단독 1건(누락 회수 #65), 누적 비중 astro **76%** · harness 24% (24~31차 astro 8배치 연속 단독 → 32차 harness 1건 회복은 누락 회수로 5월 신규 활동 아님, 활성화 주기 박제 절대 필요 유지) |
-| 관련 노트 상호 참조 | 삼각 4 + K4 완전 연결 1 + cross-validate **8노트** + sub-agent **17노트** + ADR governance **8노트** + workflow_dispatch/YAML 함정 **5노트** + closing-refs/auto-close **4노트(신규)** + 메타 self-consistency **3노트** + 회고/retrospective **5노트** + 클러스터 간 브릿지 3 + 배치 내 K3 허브 1(#64) + 배치 내 K5 mini-hub 1(#99) + 배치 내 K2 상호 참조 쌍 4 + "Builds on" 명시 양방향 쌍 2 + 가설→재현 쌍 1(#115↔#117) + 단일 노트 5개 동시 참조 3사례 + 동타입 쌍 ~79 + 교차타입 쌍 ~97 | +closing-refs/auto-close 클러스터 신규 4노트 (#41 콜론 함정 + #115 base 가설 + #117 base 재현 + #65 H1/H2 syntax 가설) — **(C) 장기 누적 점진 형성 변형 첫 사례** (2026-04-19 → 2026-05-26 1개월 분산 형성, (A) 점진 축적/(B) 단일 배치 동시 형성 외) |
-| 역참조 백필 건수 | **162** (기존 159 + 32차 +3) | **26배치 연속** 백필 — 32차 3개 노트 3 링크. `notes/github-auto-close-keyword-syntax.md` (#41) + `notes/closing-refs-base-develop-trap.md` (#115) + `notes/closing-refs-base-develop-32nd-reproduction.md` (#117) 모두 +1 링크씩 |
-| 볼트 자기참조 노트 건수 | **78** (기존 77 + 32차 +1) | +1: 32차 자기참조 1/1 (**100%**). closing-refs/auto-close 클러스터 친화적 (#41·#115·#117 양방향) |
-| 독립 노트(related:[]) 건수 | **5** | 변동 없음 — 32차 신규 독립 노트 0 |
+| 누적 처리 건수 | **120** | +2 (#119·#120, 33차 knowledge 2 — follow-camera worldMatrix frame lag + 흩어진 상수 데이터 메타 SSoT) |
+| 본문 교정 발생률 | 2/120 (2%) | 33차 교정 0 — **20배치 연속** 원문 충실 캡처 |
+| 통합 캡처 건수 | **2** (26차 신규) | 변동 없음 — 33차 미발생 |
+| frontmatter 교정 발생률 | 1/120 (1%) | 변동 없음 — 33차 2건 모두 type:knowledge 단일 정상 |
+| 분류 애매 케이스 | 0 | 33차 2건 모두 knowledge 라벨 명확 |
+| 헤더 이름 규약 일탈 | 2/120 (2%) | 변동 없음 — 33차 표준 헤더 준수 |
+| 헤더 포맷 변형 | **5/120 (4%)** | 변동 없음 — 33차 변형 없음 |
+| 정제 지연(inbox 체류) | 당일 **78** / 익일 **18** / 2일+ **24** / **누락 회수 1(34일)** | +2: 33차 #119(36일)·#120(35일) 모두 2일+ 버킷 — **정규 워크플로 대상 최장 지연 신기록** (capture 라벨 정상 부착, 32차 #65 34일은 누락 회수 특수 사유였음). 캡처 휴지+일괄 정제 모드 **3회차 관찰(35.5일 평균)** — compile 규약 3회 충족 (29차 7.47일 + 31차 6.83일 + 33차 35.5일). 단 휴지 길이 약 5배 편차 |
+| 캡처 버스트 | 세션당 1~**18건** | 변동 없음 — 33차 2건(6/3·6/4 분산 캡처) |
+| 출처 레포 다양성 | **2종**(astro-simulator **92**, harness-setting **28**) | 3종 이상 시 재평가 — 33차 astro 단독 2건, 누적 비중 astro **77%** · harness 23% (누락 회수 제외 시 astro 9배치 연속 단독, harness 신규 활동 정체 지속, 활성화 주기 박제 절대 필요 유지) |
+| 관련 노트 상호 참조 | 삼각 4 + K4 완전 연결 1 + cross-validate **8노트** + sub-agent **17노트** + ADR governance **8노트** + workflow_dispatch/YAML 함정 **5노트** + closing-refs/auto-close **4노트** + babylon/3D 렌더링 **4노트(신규)** + 메타 self-consistency **3노트** + 회고/retrospective **5노트** + 클러스터 간 브릿지 3 + 배치 내 K3 허브 1(#64) + 배치 내 K5 mini-hub 1(#99) + 배치 내 K2 상호 참조 쌍 4 + "Builds on" 명시 양방향 쌍 2 + 가설→재현 쌍 1(#115↔#117) + 단일 노트 5개 동시 참조 3사례 + 단일 노트 4개 동시 참조 mini-hub 1(#120) + 동타입 쌍 ~81 + 교차타입 쌍 ~99 | +babylon/3D 렌더링 클러스터 신규 4노트 (alpha-silent-failure + v9-wgsl-declarations + wgsl-texture-sample + #119 follow-camera) — `subject-cluster:babylon-rendering` 라벨링 후보. +#120 SSoT/drift/data-not-code mini-hub (단일 노트 4개 동시 참조) |
+| 역참조 백필 건수 | **169** (기존 162 + 33차 +7) | **27배치 연속** 백필 — 33차 7개 노트 7 링크. #120 → hidden-constant-proportion-drift / new-data-not-new-code-adr-prediction / ssot-tracking-zombie-external-orthogonal-guards / meta/patterns/regression-guard-3stage-simulation. #119 → babylon-postprocess-alpha-silent-failure / babylon-v9-wgsl-postprocess-declarations / downstream-measurement-final-guard |
+| 볼트 자기참조 노트 건수 | **80** (기존 78 + 33차 +2) | +2: 33차 자기참조 2/2 (**100%**). #119 babylon 렌더링 클러스터 + #120 SSoT drift 클러스터 모두 기존 클러스터 친화적 |
+| 독립 노트(related:[]) 건수 | **5** | 변동 없음 — 33차 신규 독립 노트 0 |
 | 노트 보강 건수 | 1 (#13) | 변동 없음 |
-| 분류별 누적 | knowledge **78** / pattern **17** / feedback 3 / decision 2 / report **18** | +knowledge 1(#65). knowledge 비중 66% 유지 |
-| capture 라벨 누락 | **7/118 (6%)** | +1 (#65 워크플로 이전 캡처 라벨 부재 → 32차 정제 직전 부착) — 9배치 연속 정상 유지 끊김. 단 **워크플로 이전 누락 회수** 특수 사유, capture-volt 보정 효과(23~31차 56건 연속)와 무관 |
+| 분류별 누적 | knowledge **80** / pattern **17** / feedback 3 / decision 2 / report **18** | +knowledge 2(#119·#120). knowledge 비중 67% 유지 |
+| capture 라벨 누락 | **7/120 (6%)** | 변동 없음 — 33차 #119·#120 모두 capture 라벨 정상 부착 (정규 워크플로 대상) |
 
 **다음 판단 트리거** (아래 중 2개 충족 시 Tier 1 자동화 검토 재개):
-- 월 캡처량 20건 이상 지속 (현재 4월 누적 78건 + 5월 누적 **40건** — **이미 충족**)
+- 월 캡처량 20건 이상 지속 (현재 4월 누적 78건 + 5월 누적 40건 + 6월 캡처 **2건**(#119·#120) — **이미 충족**)
 - 본문 교정 발생률 30% 초과 (현재 2%)
-- 정제 지연 평균 3일 이상 (현재 31차 평균 **6.83일** — 32차 누락 회수 별도 버킷 분리, 운영 모드 양면 가설 평균 영향 없음)
+- 정제 지연 평균 3일 이상 (**이미 충족** — 휴지+일괄 정제 모드 33차 평균 35.5일, 정규 워크플로 대상 월 단위 지연 실증)
 - 출처 레포 3종 이상 다양화 (현재 2종)
 
-→ **Tier 1 자동화 검토 재개 임계 도달 유지** — 캡처량 트리거 + 정제 지연 트리거(31차 재충족) 2건 동시 충족. **캡처 휴지+일괄 정제 운영 모드 2회차 관찰** (29차 7.47일 + 31차 6.83일) — compile 규약 3회 중 2회 달성. 32차는 워크플로 이전 누락 회수로 운영 모드 카운트 비대상. 다음 배치도 휴지+일괄이면 박제 시점 도래. **closing-refs/auto-close 클러스터 4노트 신규 형성 — (C) 장기 누적 점진 형성 변형 첫 사례** (1개월 분산 #41/#115/#117/#65, (A) 점진 축적·(B) 단일 배치 동시 형성 외 새 변형). 단발 관찰 → compile 규약 1회. **워크플로 이전 누락 이슈 정기 점검 운영 규약 박제 후보 신규** — `gh issue list --state open --label !capture` 정기 스캔 루틴 박제 시점 검토. **30차 즉시 정제 회귀는 단발성으로 확정** — 양면 운영 모드(즉시 정제 vs 휴지+일괄) 가설 강화, 분기 임계값(캡처량/세션 빈도/주말 효과) 관찰 가속 시점. **sub-agent 클러스터 17노트 단독 1위 격차 +9 유지(32차)** — 메타 분류 `subject-cluster:sub-agent` 박제 절대 시점 유지. **astro 8배치 연속 단독(24~31차) + harness 5월 활동 0건 8배치 연속 정체 → 32차 harness 1건(누락 회수)** — 활성화 주기 비대칭 심화, harness 휴면 운영 모드 박제 절대 시점 유지. **ADR governance 8노트 — (B)+(A) 혼합 형성 경로 첫 사례** (29차 (B) → 31차 (A) +1 — 단일 클러스터 두 형성 경로 혼합). **회고/retrospective 클러스터 누적 5노트 임계 접근** — `subject-cluster:retrospective` 박제 시점 임박. **가설→재현 쌍 박제 신규 변형(#115↔#117)** — AGENTS.md "통계 신뢰도 강화 패턴" 박제 후보. **R-Phase 함정 #7 신규(#118) + UI 가시성 클러스터 5월 첫 활성화** — D-T2 자동 검증 blind spot 영구화 증거 누적. **auto-memory 운영 규약 자기 박제 사이클 첫 사례(#113)** — 볼트가 harness CLAUDE.md 운영 규약 SSoT 로 진화하는 변곡점 가능. **AGENTS.md 박제 백로그 9건 적체** (31차 8건 + 워크플로 이전 누락 이슈 정기 점검 신규). 분할 박제 우선순위: sub-agent 메타 분류 + astro 활성화 주기 + capture 휴지/즉시 정제 양면 운영 모드(compile 임박) — 셋 다 절대 시점.
+→ **Tier 1 자동화 검토 재개 임계 도달 유지** — 캡처량 트리거 + 정제 지연 트리거 2건 동시 충족. **캡처 휴지+일괄 정제 운영 모드 3회차 관찰 — compile 규약 충족** (29차 7.47일 + 31차 6.83일 + 33차 35.5일). 박제 시점 도래 — 단 휴지 길이가 앞 2회의 약 5배(35.5일)로 편차가 커 "휴지+일괄" 모드 내 **휴지 기간이 넓은 분포(약 1주~1개월+)를 가진다는 것**이 3회차 핵심 발견. AGENTS.md 박제 시 휴지 기간 범위 명시 필요. **정규 워크플로 대상 34일+ 지연 2배치 연속** (32차 누락 회수 34일 + 33차 정규 35~36일) — 정규 대상도 월 단위 지연 발생 실증. **babylon/3D 렌더링 클러스터 4노트 신규 형성**(#119 합류) — `subject-cluster:babylon-rendering` 라벨링 후보. **#120 SSoT/drift/data-not-code mini-hub**(단일 노트 4개 동시 참조) — 흩어진 상수 근본 제거 패턴이 은닉 상수(#69)·신규 데이터≠코드(#47)·직교 가드(#92)·3중 시뮬(#96) 을 잇는 허브. **sub-agent 클러스터 17노트 단독 1위 격차 +9 유지** — 메타 분류 `subject-cluster:sub-agent` 박제 절대 시점 유지. **astro 단독 지속(누락 회수 제외 9배치 연속) + harness 신규 활동 정체** — 활성화 주기 비대칭 심화, harness 휴면 운영 모드 박제 절대 시점 유지. **회고/retrospective 클러스터 누적 5노트 임계 접근** — `subject-cluster:retrospective` 박제 시점 임박. **AGENTS.md 박제 백로그 10건 적체** (32차 9건 + babylon/3D 렌더링 클러스터 라벨 신규). 최우선: sub-agent 메타 분류 + astro 활성화 주기 + 캡처 휴지/즉시 정제 양면 운영 모드(**compile 충족 — 박제 착수 시점**).
