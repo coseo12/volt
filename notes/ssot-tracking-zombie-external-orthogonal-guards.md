@@ -11,6 +11,7 @@ related:
   - ../meta/patterns/sub-agent-bg-process-leak-pattern.md
   - ../meta/patterns/agent-browser-chrome-zombie-pattern.md
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md
+  - ./scattered-constant-data-meta-ssot.md
 ---
 
 ## 요약

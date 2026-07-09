@@ -9,6 +9,7 @@ tags: [adr, abstraction, pattern, data-driven, parent-child, json-schema, predic
 related:
   - ../meta/feedback/new-function-prior-search-miss.md
   - ./hidden-constant-proportion-drift.md
+  - ./scattered-constant-data-meta-ssot.md
 ---
 
 ## 요약

@@ -10,6 +10,7 @@ related:
   - ./comment-contract-implementation-drift.md
   - ./new-data-not-new-code-adr-prediction.md
   - ./fact-first-visibility-scale-trap.md
+  - ./scattered-constant-data-meta-ssot.md
 ---
 
 ## 요약

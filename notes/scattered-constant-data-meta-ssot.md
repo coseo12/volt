@@ -4,12 +4,12 @@ type: knowledge
 source_repo: coseo12/astro-simulator (이슈 #613 / #617 / #619, PR #618 / #620)
 source_issue: 120
 captured_at: 2026-07-09
-status: inbox
+status: refined
 tags: [ssot, drift, metadata-driven, hardcoded-constant, static-guard, data-not-code, hidden-constant, json-format-preservation]
 related:
-  - ../notes/hidden-constant-proportion-drift.md
-  - ../notes/new-data-not-new-code-adr-prediction.md
-  - ../notes/ssot-tracking-zombie-external-orthogonal-guards.md
+  - ./hidden-constant-proportion-drift.md
+  - ./new-data-not-new-code-adr-prediction.md
+  - ./ssot-tracking-zombie-external-orthogonal-guards.md
   - ../meta/patterns/regression-guard-3stage-simulation.md
 ---
 

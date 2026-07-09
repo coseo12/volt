@@ -10,6 +10,7 @@ related:
   - ./wgsl-texture-sample-uniform-control-flow.md
   - ./babylon-v9-wgsl-postprocess-declarations.md
   - ../meta/patterns/adr-prime-variant-pattern.md
+  - ./follow-camera-worldmatrix-frame-lag.md
 ---
 
 ## 요약

@@ -17,6 +17,7 @@ related:
   - ./debug-script-over-static-analysis.md
   - ./regression-guard-bootstrap-chicken-and-egg.md
   - ../meta/patterns/regression-guard-3stage-simulation.md
+  - ./follow-camera-worldmatrix-frame-lag.md
 ---
 
 ## 요약

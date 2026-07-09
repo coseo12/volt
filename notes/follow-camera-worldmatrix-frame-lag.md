@@ -4,12 +4,12 @@ type: knowledge
 source_repo: coseo12/astro-simulator (이슈 #611 / PR #612)
 source_issue: 119
 captured_at: 2026-07-09
-status: inbox
+status: refined
 tags: [babylonjs, 3d-rendering, camera, render-loop, timing-bug, worldMatrix, follow-camera, frame-lag]
 related:
-  - ../notes/babylon-postprocess-alpha-silent-failure.md
-  - ../notes/babylon-v9-wgsl-postprocess-declarations.md
-  - ../notes/downstream-measurement-final-guard.md
+  - ./babylon-postprocess-alpha-silent-failure.md
+  - ./babylon-v9-wgsl-postprocess-declarations.md
+  - ./downstream-measurement-final-guard.md
 ---
 
 ## 요약

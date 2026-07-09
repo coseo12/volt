@@ -12,6 +12,7 @@ related:
   - ../../notes/reviewer-qa-gate-skip-headless-self-pass.md
   - ../../notes/bash-script-isolation-dynamic-test.md
   - ../../notes/work-order-grep-backtick-fidelity.md
+  - ../../notes/scattered-constant-data-meta-ssot.md
 ---
 
 ## 배경/상황
