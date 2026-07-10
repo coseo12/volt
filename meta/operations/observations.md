@@ -845,34 +845,58 @@ tags: [operations, meta, volt-itself]
 
 ---
 
+## 2026-07-10 — 34차 배치(#121)
+
+**처리량**: 1건 (knowledge 1) — `notes/ 1건` (meta/* 0건). astro-simulator 구현 원본 → harness-setting 기여 대상 — 세션 중단 dead-wait 방지 3계층 가드(fallback heartbeat + SessionStart 복구 훅 + 대기 상태 파일).
+
+**관찰**:
+- **이중/방향성 source_repo 첫 사례 (구현 원본 → 기여 대상)**: `source_repo: coseo12/astro-simulator (구현 원본) → coseo12/harness-setting (기여 대상)`. 지금까지 source_repo 는 단일 레포였으나, #121 은 구현 위치(astro)와 지식의 기여 지향처(harness upstream, Z-패턴 Phase 2)가 분리된 방향성 표기. AGENTS.md source_repo 표기 규약에 신규 변형.
+- **당일 정제 — 즉시 정제 모드로 회귀 (33차 휴지+일괄 35일 직후)**: #121 캡처 2026-07-10 08:14 → 정제 당일. 33차 휴지+일괄 정제(35.5일 평균) 직후 34차 즉시 정제 — 양면 운영 모드(즉시 정제 vs 휴지+일괄)의 교대 관찰 재확인. 30차(0일)·32차(누락 회수) 외 정규 당일 정제 재등장.
+- **sub-agent/프로세스 라이프사이클 가드 클러스터에 "가드 D(대기 라이프사이클)" 직교 축 확장**: #121 은 스스로를 기존 좀비 검출 가드 A/B/C(프로세스 라이프사이클)의 **직교 확장 = 가드 D(대기 라이프사이클)**로 위치시킴. sub-agent-bg-process-leak(bg SIGKILL leak) + ssot-tracking-zombie(가드 A/B/C 직교 박제) 와 근본 원인·구조 공유. sub-agent 클러스터 17 → **18노트** 확장.
+- **harness upstream 기여 실질화 — 32~33차 "harness 신규 활동 정체" 반전 조짐**: 구현은 astro지만 지식 자체가 harness-setting upstream 기여(Z-패턴 Phase 2, settings.json 훅 등록 1줄 managed drift + non-managed 로직 파일) 지향. adr-z-pattern-option-a-first-adoption(#116, Phase 2 시작 시그널)의 실질 후속.
+- **자기참조 1/1 (100%) — 31~33차 100% 유지**: #121 → sub-agent-bg-process-leak(pattern) + ssot-tracking-zombie + regression-guard-3stage-simulation(pattern) + adr-z-pattern-option-a-first-adoption 4노트 참조, 모두 기존 클러스터 친화적. 신규 독립 노트 0.
+- **본문 교정 0건 — 21배치 연속**: 표준 knowledge 헤더(### 요약 / ### 본문 / ### 관련 노트/링크) 준수, ### → ## 변환만 적용. 본문 내부 볼드 소제목·`####` 유지.
+- **frontmatter 정규화 0건 · 헤더 포맷 변형 0건**: type:knowledge 단일 정상. (source_repo 값이 이중이지만 헤더명·구조 변경은 아님 — 값 변형)
+- **역참조 백필 4개 노트 · 4 링크 — 28배치 연속 백필**: sub-agent-bg-process-leak-pattern / ssot-tracking-zombie-external-orthogonal-guards / regression-guard-3stage-simulation / adr-z-pattern-option-a-first-adoption 모두 +1 링크씩.
+- **분류 애매 케이스 0** (34차 1건 knowledge 라벨 명확).
+
+**시그널**:
+- **양면 운영 모드(즉시 vs 휴지+일괄) 교대 관찰 지속**: 33차 휴지+일괄(35일) 직후 34차 즉시 정제(당일) — 두 모드가 배치별로 교대. compile 충족한 "휴지+일괄" 모드와 "즉시 정제" 모드가 공존하며, 분기 임계값(캡처 시점·세션 재개 타이밍) 관찰 재료 누적. AGENTS.md 양면 운영 모드 박제 시 교대 패턴 명시.
+- **이중 source_repo 표기 규약 후보 — 구현 원본 → 기여 대상 방향성**: harness upstream 기여형 지식이 늘면 "구현 위치 ≠ 지식 귀속처" 케이스 반복 가능. AGENTS.md source_repo 규약에 방향성 표기(`A (구현) → B (기여)`) 정식화 후보. 단발 관찰 → compile 규약 1회.
+- **harness 활성화 주기 박제 시점 재검토 신호**: 32~33차 "harness 신규 활동 정체" 시그널이 #121(harness upstream 기여 지향)로 반전 조짐. 단 구현 자체는 astro라 harness 순수 신규 활동은 아님 — Z-패턴 Phase 2가 실제 harness 기여로 이어지는지 다음 배치 관찰. harness 휴면 운영 모드 박제 시점 판단 보류 연장.
+- **sub-agent 클러스터 18노트 — "프로세스+대기 라이프사이클 가드 A/B/C/D" 하위 구조 명시 후보**: 단독 1위 격차 확대(+10). `subject-cluster:sub-agent` 박제 시 프로세스 라이프사이클(가드 A/B/C) + 대기 라이프사이클(가드 D) 직교 2축 하위 구조 명시 후보. 박제 절대 시점 유지.
+- **AGENTS.md 박제 백로그 12건 적체** (33차 10건 + 이중 source_repo 방향성 표기 + sub-agent 하위 2축 구조 신규): 최우선 3건(sub-agent 메타 분류 + astro 활성화 주기 + 캡처 휴지/즉시 정제 양면 운영 모드[compile 충족]) 변동 없음.
+
+---
+
 ## 판단 재료 누적 현황
 
 자동화 도입 결정을 위해 누적해야 할 지표:
 
 | 지표 | 현재 | 비고 |
 |---|---|---|
-| 누적 처리 건수 | **120** | +2 (#119·#120, 33차 knowledge 2 — follow-camera worldMatrix frame lag + 흩어진 상수 데이터 메타 SSoT) |
-| 본문 교정 발생률 | 2/120 (2%) | 33차 교정 0 — **20배치 연속** 원문 충실 캡처 |
-| 통합 캡처 건수 | **2** (26차 신규) | 변동 없음 — 33차 미발생 |
-| frontmatter 교정 발생률 | 1/120 (1%) | 변동 없음 — 33차 2건 모두 type:knowledge 단일 정상 |
-| 분류 애매 케이스 | 0 | 33차 2건 모두 knowledge 라벨 명확 |
-| 헤더 이름 규약 일탈 | 2/120 (2%) | 변동 없음 — 33차 표준 헤더 준수 |
-| 헤더 포맷 변형 | **5/120 (4%)** | 변동 없음 — 33차 변형 없음 |
-| 정제 지연(inbox 체류) | 당일 **78** / 익일 **18** / 2일+ **24** / **누락 회수 1(34일)** | +2: 33차 #119(36일)·#120(35일) 모두 2일+ 버킷 — **정규 워크플로 대상 최장 지연 신기록** (capture 라벨 정상 부착, 32차 #65 34일은 누락 회수 특수 사유였음). 캡처 휴지+일괄 정제 모드 **3회차 관찰(35.5일 평균)** — compile 규약 3회 충족 (29차 7.47일 + 31차 6.83일 + 33차 35.5일). 단 휴지 길이 약 5배 편차 |
-| 캡처 버스트 | 세션당 1~**18건** | 변동 없음 — 33차 2건(6/3·6/4 분산 캡처) |
-| 출처 레포 다양성 | **2종**(astro-simulator **92**, harness-setting **28**) | 3종 이상 시 재평가 — 33차 astro 단독 2건, 누적 비중 astro **77%** · harness 23% (누락 회수 제외 시 astro 9배치 연속 단독, harness 신규 활동 정체 지속, 활성화 주기 박제 절대 필요 유지) |
-| 관련 노트 상호 참조 | 삼각 4 + K4 완전 연결 1 + cross-validate **8노트** + sub-agent **17노트** + ADR governance **8노트** + workflow_dispatch/YAML 함정 **5노트** + closing-refs/auto-close **4노트** + babylon/3D 렌더링 **4노트(신규)** + 메타 self-consistency **3노트** + 회고/retrospective **5노트** + 클러스터 간 브릿지 3 + 배치 내 K3 허브 1(#64) + 배치 내 K5 mini-hub 1(#99) + 배치 내 K2 상호 참조 쌍 4 + "Builds on" 명시 양방향 쌍 2 + 가설→재현 쌍 1(#115↔#117) + 단일 노트 5개 동시 참조 3사례 + 단일 노트 4개 동시 참조 mini-hub 1(#120) + 동타입 쌍 ~81 + 교차타입 쌍 ~99 | +babylon/3D 렌더링 클러스터 신규 4노트 (alpha-silent-failure + v9-wgsl-declarations + wgsl-texture-sample + #119 follow-camera) — `subject-cluster:babylon-rendering` 라벨링 후보. +#120 SSoT/drift/data-not-code mini-hub (단일 노트 4개 동시 참조) |
-| 역참조 백필 건수 | **169** (기존 162 + 33차 +7) | **27배치 연속** 백필 — 33차 7개 노트 7 링크. #120 → hidden-constant-proportion-drift / new-data-not-new-code-adr-prediction / ssot-tracking-zombie-external-orthogonal-guards / meta/patterns/regression-guard-3stage-simulation. #119 → babylon-postprocess-alpha-silent-failure / babylon-v9-wgsl-postprocess-declarations / downstream-measurement-final-guard |
-| 볼트 자기참조 노트 건수 | **80** (기존 78 + 33차 +2) | +2: 33차 자기참조 2/2 (**100%**). #119 babylon 렌더링 클러스터 + #120 SSoT drift 클러스터 모두 기존 클러스터 친화적 |
-| 독립 노트(related:[]) 건수 | **5** | 변동 없음 — 33차 신규 독립 노트 0 |
+| 누적 처리 건수 | **121** | +1 (#121, 34차 knowledge 1 — 세션 중단 dead-wait 방지 3계층 가드) |
+| 본문 교정 발생률 | 2/121 (2%) | 34차 교정 0 — **21배치 연속** 원문 충실 캡처 |
+| 통합 캡처 건수 | **2** (26차 신규) | 변동 없음 — 34차 미발생 |
+| frontmatter 교정 발생률 | 1/121 (1%) | 변동 없음 — 34차 type:knowledge 단일 정상 (단 source_repo 값 이중/방향성 첫 사례 — 헤더 구조 변경 아님) |
+| 분류 애매 케이스 | 0 | 34차 1건 knowledge 라벨 명확 |
+| 헤더 이름 규약 일탈 | 2/121 (2%) | 변동 없음 — 34차 표준 헤더 준수 |
+| 헤더 포맷 변형 | **5/121 (4%)** | 변동 없음 — 34차 변형 없음 |
+| 정제 지연(inbox 체류) | 당일 **79** / 익일 **18** / 2일+ **24** / **누락 회수 1(34일)** | +1: 34차 #121 당일 정제 (2026-07-10 08:14 캡처 → 당일) — 33차 휴지+일괄(35.5일) 직후 **즉시 정제 모드 회귀**. 양면 운영 모드 교대 관찰 재확인 |
+| 캡처 버스트 | 세션당 1~**18건** | 변동 없음 — 34차 1건 |
+| 출처 레포 다양성 | **2종**(astro-simulator **93**, harness-setting **28**) | 3종 이상 시 재평가 — 34차 #121 구현 원본 astro(+1) → **harness-setting 기여 대상**(이중/방향성 source_repo 첫 사례). 누적 비중 astro **77%** · harness 23%. harness upstream 기여 지향 지식 — 활성화 주기 박제 시점 재검토 신호 |
+| 관련 노트 상호 참조 | 삼각 4 + K4 완전 연결 1 + cross-validate **8노트** + sub-agent **18노트** + ADR governance **8노트** + workflow_dispatch/YAML 함정 **5노트** + closing-refs/auto-close **4노트** + babylon/3D 렌더링 **4노트** + 메타 self-consistency **3노트** + 회고/retrospective **5노트** + 클러스터 간 브릿지 3 + 배치 내 K3 허브 1(#64) + 배치 내 K5 mini-hub 1(#99) + 배치 내 K2 상호 참조 쌍 4 + "Builds on" 명시 양방향 쌍 2 + 가설→재현 쌍 1(#115↔#117) + 단일 노트 5개 동시 참조 3사례 + 단일 노트 4개 동시 참조 mini-hub 2(#120·#121) + 동타입 쌍 ~82 + 교차타입 쌍 ~101 | +sub-agent 클러스터 17→18노트 (#121 가드 D 대기 라이프사이클 직교 축 확장 — 프로세스 가드 A/B/C 의 직교 확장). #121 도 단일 노트 4개 동시 참조 mini-hub |
+| 역참조 백필 건수 | **173** (기존 169 + 34차 +4) | **28배치 연속** 백필 — 34차 4개 노트 4 링크. #121 → sub-agent-bg-process-leak-pattern / ssot-tracking-zombie-external-orthogonal-guards / regression-guard-3stage-simulation / adr-z-pattern-option-a-first-adoption |
+| 볼트 자기참조 노트 건수 | **81** (기존 80 + 34차 +1) | +1: 34차 자기참조 1/1 (**100%**). sub-agent/프로세스 라이프사이클 가드 + Z-패턴 클러스터 친화적 |
+| 독립 노트(related:[]) 건수 | **5** | 변동 없음 — 34차 신규 독립 노트 0 |
 | 노트 보강 건수 | 1 (#13) | 변동 없음 |
-| 분류별 누적 | knowledge **80** / pattern **17** / feedback 3 / decision 2 / report **18** | +knowledge 2(#119·#120). knowledge 비중 67% 유지 |
-| capture 라벨 누락 | **7/120 (6%)** | 변동 없음 — 33차 #119·#120 모두 capture 라벨 정상 부착 (정규 워크플로 대상) |
+| 분류별 누적 | knowledge **81** / pattern **17** / feedback 3 / decision 2 / report **18** | +knowledge 1(#121). knowledge 비중 67% 유지 |
+| capture 라벨 누락 | **7/121 (6%)** | 변동 없음 — 34차 #121 capture 라벨 정상 부착 |
 
 **다음 판단 트리거** (아래 중 2개 충족 시 Tier 1 자동화 검토 재개):
-- 월 캡처량 20건 이상 지속 (현재 4월 누적 78건 + 5월 누적 40건 + 6월 캡처 **2건**(#119·#120) — **이미 충족**)
+- 월 캡처량 20건 이상 지속 (현재 4월 누적 78건 + 5월 누적 40건 + 6월 2건 + 7월 캡처 **1건**(#121) — **이미 충족**)
 - 본문 교정 발생률 30% 초과 (현재 2%)
-- 정제 지연 평균 3일 이상 (**이미 충족** — 휴지+일괄 정제 모드 33차 평균 35.5일, 정규 워크플로 대상 월 단위 지연 실증)
+- 정제 지연 평균 3일 이상 (**이미 충족** — 휴지+일괄 모드 33차 평균 35.5일 / 34차 즉시 정제 당일, 양면 운영 모드 교대)
 - 출처 레포 3종 이상 다양화 (현재 2종)
 
-→ **Tier 1 자동화 검토 재개 임계 도달 유지** — 캡처량 트리거 + 정제 지연 트리거 2건 동시 충족. **캡처 휴지+일괄 정제 운영 모드 3회차 관찰 — compile 규약 충족** (29차 7.47일 + 31차 6.83일 + 33차 35.5일). 박제 시점 도래 — 단 휴지 길이가 앞 2회의 약 5배(35.5일)로 편차가 커 "휴지+일괄" 모드 내 **휴지 기간이 넓은 분포(약 1주~1개월+)를 가진다는 것**이 3회차 핵심 발견. AGENTS.md 박제 시 휴지 기간 범위 명시 필요. **정규 워크플로 대상 34일+ 지연 2배치 연속** (32차 누락 회수 34일 + 33차 정규 35~36일) — 정규 대상도 월 단위 지연 발생 실증. **babylon/3D 렌더링 클러스터 4노트 신규 형성**(#119 합류) — `subject-cluster:babylon-rendering` 라벨링 후보. **#120 SSoT/drift/data-not-code mini-hub**(단일 노트 4개 동시 참조) — 흩어진 상수 근본 제거 패턴이 은닉 상수(#69)·신규 데이터≠코드(#47)·직교 가드(#92)·3중 시뮬(#96) 을 잇는 허브. **sub-agent 클러스터 17노트 단독 1위 격차 +9 유지** — 메타 분류 `subject-cluster:sub-agent` 박제 절대 시점 유지. **astro 단독 지속(누락 회수 제외 9배치 연속) + harness 신규 활동 정체** — 활성화 주기 비대칭 심화, harness 휴면 운영 모드 박제 절대 시점 유지. **회고/retrospective 클러스터 누적 5노트 임계 접근** — `subject-cluster:retrospective` 박제 시점 임박. **AGENTS.md 박제 백로그 10건 적체** (32차 9건 + babylon/3D 렌더링 클러스터 라벨 신규). 최우선: sub-agent 메타 분류 + astro 활성화 주기 + 캡처 휴지/즉시 정제 양면 운영 모드(**compile 충족 — 박제 착수 시점**).
+→ **Tier 1 자동화 검토 재개 임계 도달 유지** — 캡처량 트리거 + 정제 지연 트리거 2건 동시 충족. **양면 운영 모드(즉시 정제 vs 휴지+일괄) 교대 관찰 지속** — 33차 휴지+일괄(35.5일 평균, compile 충족) 직후 34차 즉시 정제(당일). 두 모드 배치별 교대 — AGENTS.md 박제 시 교대 패턴 + 휴지 기간 넓은 분포(약 1주~1개월+) 명시 필요. **이중/방향성 source_repo 첫 사례(#121: astro 구현 → harness 기여)** — AGENTS.md source_repo 규약에 방향성 표기(`A (구현) → B (기여)`) 정식화 후보(단발, compile 1회). **harness 활성화 주기 박제 시점 재검토 신호** — 32~33차 "harness 신규 활동 정체"가 #121(harness upstream 기여 지향)로 반전 조짐, 단 구현은 astro라 순수 신규 활동 아님 — Z-패턴 Phase 2 실제 기여 여부 다음 배치 관찰(휴면 박제 판단 보류 연장). **sub-agent 클러스터 18노트 — 단독 1위 격차 +10** — 프로세스 라이프사이클(가드 A/B/C) + 대기 라이프사이클(가드 D, #121) 직교 2축 하위 구조 명시 후보, `subject-cluster:sub-agent` 박제 절대 시점 유지. **babylon/3D 렌더링 클러스터 4노트**(#119) — `subject-cluster:babylon-rendering` 라벨링 후보. **회고/retrospective 클러스터 누적 5노트 임계 접근** — `subject-cluster:retrospective` 박제 시점 임박. **AGENTS.md 박제 백로그 12건 적체** (33차 10건 + 이중 source_repo 방향성 표기 + sub-agent 하위 2축 구조 신규). 최우선: sub-agent 메타 분류 + astro 활성화 주기 + 캡처 휴지/즉시 정제 양면 운영 모드(**compile 충족 — 박제 착수 시점**).
