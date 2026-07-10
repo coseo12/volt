@@ -4,13 +4,13 @@ type: knowledge
 source_repo: coseo12/astro-simulator (구현 원본) → coseo12/harness-setting (기여 대상)
 source_issue: 121
 captured_at: 2026-07-10
-status: inbox
+status: refined
 tags: [session-lifecycle, dead-wait, ScheduleWakeup, SessionStart-hook, orchestrator, harness-upstream, z-pattern]
 related:
   - ../meta/patterns/sub-agent-bg-process-leak-pattern.md
-  - ../notes/ssot-tracking-zombie-external-orthogonal-guards.md
+  - ./ssot-tracking-zombie-external-orthogonal-guards.md
   - ../meta/patterns/regression-guard-3stage-simulation.md
-  - ../notes/adr-z-pattern-option-a-first-adoption.md
+  - ./adr-z-pattern-option-a-first-adoption.md
 ---
 
 ## 요약

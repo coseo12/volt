@@ -13,6 +13,7 @@ related:
   - ../../notes/bash-script-isolation-dynamic-test.md
   - ../../notes/work-order-grep-backtick-fidelity.md
   - ../../notes/scattered-constant-data-meta-ssot.md
+  - ../../notes/session-dead-wait-guard-3layer.md
 ---
 
 ## 배경/상황

@@ -12,6 +12,7 @@ related:
   - ../meta/patterns/agent-browser-chrome-zombie-pattern.md
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md
   - ./scattered-constant-data-meta-ssot.md
+  - ./session-dead-wait-guard-3layer.md
 ---
 
 ## 요약

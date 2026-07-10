@@ -13,6 +13,7 @@ related:
   - ../../notes/reviewer-qa-gate-skip-headless-self-pass.md
   - ../../notes/ssot-tracking-zombie-external-orthogonal-guards.md
   - ./closing-issues-references-empirical-verify.md
+  - ../../notes/session-dead-wait-guard-3layer.md
 ---
 
 ## 배경/상황

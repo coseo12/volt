@@ -10,6 +10,7 @@ related:
   - ./adr-trigger-discussion-issue-pattern.md
   - ./silent-guard-relaxation-trade-off.md
   - ./adr-amendment-form-b-standard.md
+  - ./session-dead-wait-guard-3layer.md
 ---
 
 ## 배경/상황
