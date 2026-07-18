@@ -869,34 +869,61 @@ tags: [operations, meta, volt-itself]
 
 ---
 
+## 2026-07-19 — 35차 배치(#122~#126)
+
+**처리량**: 5건 (knowledge 4 + report·retrospective 1) — `notes/ 5건` (meta/* 0건). astro-simulator downstream — AI 에이전트 환경 전수 감사 세션(#123~#126, 2026-07-18 캡처) + fps forensic 별건(#122, 2026-07-10 캡처).
+
+**관찰**:
+- **retrospective/회고 클러스터 6노트 도달 — 31차 "임계 접근" 시그널 실현**: #126(AI 환경 감사 7이슈 완주 회고)이 회고/retrospective 클러스터에 합류 → 5 → **6노트**. 31차 시그널 "`subject-cluster:retrospective` 박제 시점 임박(5노트)"이 6노트로 임계 도달. reviewer 2종(#44/#77)·adr-z-pattern(#116)·r4-amendment(#118) 등과 연결.
+- **harness upstream 기여 실질 재개 — 32~34차 "harness 신규 활동 정체" 시그널 명확 반전**: #126 회고가 harness-setting upstream PR #319~#324 6건 제출을 기록. #123/#124/#125 모두 다운스트림(astro) 감사 + harness-setting 기여 이슈(#319/#320/#322) 쌍. 34차 #121 "harness 활성화 반전 조짐"이 35차 다건으로 확증 — AI 환경 감사→upstream 기여 파이프라인이 harness 정체 시그널을 무효화.
+- **skills 계층 drift 서브도메인 형성 (#124+#125 형제)**: 라벨 일원화 skills 미전파(#124) + CLI 스니펫 실기 drift(#125) — 둘 다 "skills 계층이 다른 계층 규약 변화를 따라오지 못하는" 동일 클래스. 같은 감사 세션 산출물로 배치 내 형제 쌍 연결. 신규 클러스터 씨앗.
+- **이중/다중 source_repo 표기 3건 추가 (누적 4건)**: #123/#124/#125 모두 `astro-simulator (구현/감사) / harness-setting#NNN (기여)` 다중 레포 표기. 34차 #121(첫 사례)에 이어 반복 — source_repo 규약 방향성/다중 표기 정식화 근거 축적.
+- **배치 내부 K4 허브 + 형제 쌍 (#126 회고가 #123/#124/#125 아우름)**: 단일 배치 내 회고 노트가 개별 knowledge 3노트를 참조하는 mini-hub 구조 + #124↔#125 형제. 배치 내 상호 참조 밀도 높음.
+- **measurement-first 계열 확장 (#122)**: 구현 전 CI 게이트 + fail-fast 직교 지표 = measurement-first-architect-dev-handoff(#101)·dod-fail-measurement-verify-first(#32)·regression-guard-3stage-simulation(#96)와 연결. guard-design 서브클러스터 강화.
+- **독립 노트 5 → 4 감소**: stack-pr-rebase-force-push(#17, `related: []`)가 #126 역참조 백필로 첫 링크 획득 — 독립 노트에서 연결 노트로 전환.
+- **자기참조 5/5 (100%) — 31~34차 100% 유지**: 5건 모두 기존 클러스터 친화적(measurement-first / harness-manifest / skills / agent-browser / reviewer). 신규 독립 노트 0.
+- **본문 교정 0건 — 22배치 연속**: knowledge 4 + report 1 모두 표준 헤더 준수, ### → ## 변환만 적용.
+- **frontmatter 정규화 0건 · 헤더 포맷 변형 0건**: knowledge 4 type:knowledge, #126 report+retrospective → type:report 정상. 표준 헤더.
+- **역참조 백필 14개 노트 · 15 링크 — 29배치 연속 백필**: adr-z-pattern-option-a-first-adoption +2(#123·#126), 나머지 13노트 +1씩.
+- **분류 애매 케이스 0** (5건 라벨·report_type 명확).
+
+**시그널**:
+- **`subject-cluster:retrospective` 박제 시점 도달 (6노트)**: 31차 임박(5노트) → 35차 도달(6노트). cross-validate(8)·ADR governance(8)·sub-agent(18) 다음 규모. AGENTS.md 메타 분류 라벨 박제 최우선 후보군에 진입.
+- **harness 활성화 주기 박제 방향 전환 — "휴면"에서 "감사발 주기적 기여"로**: 32~33차 "harness 휴면 운영 모드 박제 절대 시점"이 34~35차 반전. harness 신규 활동은 astro 다운스트림 감사에서 파생되는 upstream 기여 형태로 재개 — "harness 독립 활동 정체 + 감사 파생 기여 활성"의 비대칭이 새 박제 대상. 휴면 박제 보류 확정.
+- **source_repo 다중/방향성 표기 정식화 시점 도달 (누적 4건: #121/#123/#124/#125)**: 34차 단발(compile 1회) → 35차 +3 반복. `A (구현/감사) → B (기여)` 또는 `A / B#NNN` 다중 표기가 감사→기여 파이프라인의 구조적 산물. AGENTS.md source_repo 규약에 다중 레포 표기 정식화 착수 시점.
+- **skills 계층 감사 클러스터 씨앗 (#124+#125) + AI 환경 감사 파이프라인**: 코드 감사(#840~#851)와 별개로 AI 에이전트 환경 감사(#852~#858)가 독립 감사 축으로 정착. "가드 건강 ≠ 환경 건강"(#126 교훈 4) — 가드 검사 범위 밖 외곽 부패 감사가 반복되면 skills/settings/hooks 계층 drift가 정형 클러스터로 성장 가능.
+- **AGENTS.md 박제 백로그 13건+ 적체**: 34차 12건 + retrospective 클러스터 라벨(도달) + skills 계층 감사 클러스터(씨앗). 최우선 재정렬: **retrospective 메타 분류(도달)** + sub-agent 메타 분류 + source_repo 다중 표기 정식화 + 캡처 휴지/즉시 정제 양면 운영 모드(compile 충족). harness 활성화 주기는 "감사 파생 기여" 방향으로 재서술 필요.
+
+---
+
 ## 판단 재료 누적 현황
 
 자동화 도입 결정을 위해 누적해야 할 지표:
 
 | 지표 | 현재 | 비고 |
 |---|---|---|
-| 누적 처리 건수 | **121** | +1 (#121, 34차 knowledge 1 — 세션 중단 dead-wait 방지 3계층 가드) |
-| 본문 교정 발생률 | 2/121 (2%) | 34차 교정 0 — **21배치 연속** 원문 충실 캡처 |
-| 통합 캡처 건수 | **2** (26차 신규) | 변동 없음 — 34차 미발생 |
-| frontmatter 교정 발생률 | 1/121 (1%) | 변동 없음 — 34차 type:knowledge 단일 정상 (단 source_repo 값 이중/방향성 첫 사례 — 헤더 구조 변경 아님) |
-| 분류 애매 케이스 | 0 | 34차 1건 knowledge 라벨 명확 |
-| 헤더 이름 규약 일탈 | 2/121 (2%) | 변동 없음 — 34차 표준 헤더 준수 |
-| 헤더 포맷 변형 | **5/121 (4%)** | 변동 없음 — 34차 변형 없음 |
-| 정제 지연(inbox 체류) | 당일 **79** / 익일 **18** / 2일+ **24** / **누락 회수 1(34일)** | +1: 34차 #121 당일 정제 (2026-07-10 08:14 캡처 → 당일) — 33차 휴지+일괄(35.5일) 직후 **즉시 정제 모드 회귀**. 양면 운영 모드 교대 관찰 재확인 |
-| 캡처 버스트 | 세션당 1~**18건** | 변동 없음 — 34차 1건 |
-| 출처 레포 다양성 | **2종**(astro-simulator **93**, harness-setting **28**) | 3종 이상 시 재평가 — 34차 #121 구현 원본 astro(+1) → **harness-setting 기여 대상**(이중/방향성 source_repo 첫 사례). 누적 비중 astro **77%** · harness 23%. harness upstream 기여 지향 지식 — 활성화 주기 박제 시점 재검토 신호 |
-| 관련 노트 상호 참조 | 삼각 4 + K4 완전 연결 1 + cross-validate **8노트** + sub-agent **18노트** + ADR governance **8노트** + workflow_dispatch/YAML 함정 **5노트** + closing-refs/auto-close **4노트** + babylon/3D 렌더링 **4노트** + 메타 self-consistency **3노트** + 회고/retrospective **5노트** + 클러스터 간 브릿지 3 + 배치 내 K3 허브 1(#64) + 배치 내 K5 mini-hub 1(#99) + 배치 내 K2 상호 참조 쌍 4 + "Builds on" 명시 양방향 쌍 2 + 가설→재현 쌍 1(#115↔#117) + 단일 노트 5개 동시 참조 3사례 + 단일 노트 4개 동시 참조 mini-hub 2(#120·#121) + 동타입 쌍 ~82 + 교차타입 쌍 ~101 | +sub-agent 클러스터 17→18노트 (#121 가드 D 대기 라이프사이클 직교 축 확장 — 프로세스 가드 A/B/C 의 직교 확장). #121 도 단일 노트 4개 동시 참조 mini-hub |
-| 역참조 백필 건수 | **173** (기존 169 + 34차 +4) | **28배치 연속** 백필 — 34차 4개 노트 4 링크. #121 → sub-agent-bg-process-leak-pattern / ssot-tracking-zombie-external-orthogonal-guards / regression-guard-3stage-simulation / adr-z-pattern-option-a-first-adoption |
-| 볼트 자기참조 노트 건수 | **81** (기존 80 + 34차 +1) | +1: 34차 자기참조 1/1 (**100%**). sub-agent/프로세스 라이프사이클 가드 + Z-패턴 클러스터 친화적 |
-| 독립 노트(related:[]) 건수 | **5** | 변동 없음 — 34차 신규 독립 노트 0 |
+| 누적 처리 건수 | **126** | +5 (#122~#126, 35차 knowledge 4 + report·retrospective 1 — AI 환경 전수 감사 세션 4건 + fps forensic 별건 1) |
+| 본문 교정 발생률 | 2/126 (2%) | 35차 교정 0 — **22배치 연속** 원문 충실 캡처 |
+| 통합 캡처 건수 | **2** (26차 신규) | 변동 없음 — 35차 미발생 |
+| frontmatter 교정 발생률 | 1/126 (1%) | 변동 없음 — 35차 knowledge 4 type:knowledge / #126 report+retrospective → type:report 정상 |
+| 분류 애매 케이스 | 0 | 35차 5건 라벨·report_type 명확 |
+| 헤더 이름 규약 일탈 | 2/126 (2%) | 변동 없음 — 35차 표준 헤더 준수 |
+| 헤더 포맷 변형 | **5/126 (4%)** | 변동 없음 — 35차 변형 없음 |
+| 정제 지연(inbox 체류) | 당일 **79** / 익일 **22** / 2일+ **25** / **누락 회수 1(34일)** | +5: 35차 #123~#126 익일(2026-07-18→07-19, +4) + #122 9일(2026-07-10→07-19, 2일+ +1). 환경 감사 세션 4건은 익일 즉시 정제, fps forensic 별건(#122)만 9일 체류 |
+| 캡처 버스트 | 세션당 1~**18건** | 변동 없음 — 35차 감사 세션 4건(07-18) + 별건 1건 |
+| 출처 레포 다양성 | **2종**(astro-simulator **98**, harness-setting **28**) | 3종 이상 시 재평가 — 35차 astro 구현/감사 5건(+5). #123/#124/#125 harness-setting#319/#320/#322 **기여 대상 다중 표기**(누적 4건). 누적 비중 astro **78%** · harness 22%. harness upstream 기여 실질 재개 — 활성화 주기 "감사 파생 기여" 방향 재서술 |
+| 관련 노트 상호 참조 | 삼각 4 + K4 완전 연결 1 + cross-validate **8노트** + sub-agent **18노트** + ADR governance **8노트** + 회고/retrospective **6노트** + workflow_dispatch/YAML 함정 **5노트** + closing-refs/auto-close **4노트** + babylon/3D 렌더링 **4노트** + 메타 self-consistency **3노트** + skills 계층 감사 **2노트(신규)** + 클러스터 간 브릿지 3 + 배치 내 K3 허브 1(#64) + 배치 내 K5 mini-hub 1(#99) + 배치 내 K4 허브 1(#126→#123/#124/#125) + 배치 내 K2 상호 참조 쌍 5 + "Builds on" 명시 양방향 쌍 2 + 가설→재현 쌍 1(#115↔#117) + 단일 노트 5개 동시 참조 3사례 + 단일 노트 4개 동시 참조 mini-hub 2(#120·#121) + 동타입 쌍 ~85 + 교차타입 쌍 ~105 | +회고/retrospective 5→6노트(#126). +skills 계층 감사 2노트(#124·#125 형제). +배치 내 K4 허브(#126 회고 → #123/#124/#125). measurement-first 계열 확장(#122) |
+| 역참조 백필 건수 | **188** (기존 173 + 35차 +15) | **29배치 연속** 백필 — 35차 14개 노트 15 링크(adr-z-pattern +2: #123·#126, 나머지 13노트 +1씩) |
+| 볼트 자기참조 노트 건수 | **86** (기존 81 + 35차 +5) | +5: 35차 자기참조 5/5 (**100%**). 5건 모두 기존 클러스터 친화적(measurement-first/harness-manifest/skills/agent-browser/reviewer) |
+| 독립 노트(related:[]) 건수 | **4** | -1: stack-pr-rebase-force-push(#17)가 #126 역참조 백필로 첫 링크 획득 — 독립 노트 → 연결 노트 전환 |
 | 노트 보강 건수 | 1 (#13) | 변동 없음 |
-| 분류별 누적 | knowledge **81** / pattern **17** / feedback 3 / decision 2 / report **18** | +knowledge 1(#121). knowledge 비중 67% 유지 |
-| capture 라벨 누락 | **7/121 (6%)** | 변동 없음 — 34차 #121 capture 라벨 정상 부착 |
+| 분류별 누적 | knowledge **85** / pattern **17** / feedback 3 / decision 2 / report **19** | +knowledge 4(#122~#125) + report 1(#126 retrospective). knowledge 비중 67% 유지 |
+| capture 라벨 누락 | **7/126 (6%)** | 변동 없음 — 35차 5건 모두 capture 라벨 정상 부착 |
 
 **다음 판단 트리거** (아래 중 2개 충족 시 Tier 1 자동화 검토 재개):
-- 월 캡처량 20건 이상 지속 (현재 4월 누적 78건 + 5월 누적 40건 + 6월 2건 + 7월 캡처 **1건**(#121) — **이미 충족**)
+- 월 캡처량 20건 이상 지속 (현재 4월 78건 + 5월 40건 + 6월 2건 + 7월 캡처 **6건**(#121~#126) — **이미 충족**)
 - 본문 교정 발생률 30% 초과 (현재 2%)
-- 정제 지연 평균 3일 이상 (**이미 충족** — 휴지+일괄 모드 33차 평균 35.5일 / 34차 즉시 정제 당일, 양면 운영 모드 교대)
-- 출처 레포 3종 이상 다양화 (현재 2종)
+- 정제 지연 평균 3일 이상 (**이미 충족** — 휴지+일괄 / 즉시·익일 정제 양면 교대, 35차 환경 감사 4건 익일 + fps 별건 9일)
+- 출처 레포 3종 이상 다양화 (현재 2종 — 단 harness-setting 이 다중 표기 "기여 대상"으로 4건 등장)
 
-→ **Tier 1 자동화 검토 재개 임계 도달 유지** — 캡처량 트리거 + 정제 지연 트리거 2건 동시 충족. **양면 운영 모드(즉시 정제 vs 휴지+일괄) 교대 관찰 지속** — 33차 휴지+일괄(35.5일 평균, compile 충족) 직후 34차 즉시 정제(당일). 두 모드 배치별 교대 — AGENTS.md 박제 시 교대 패턴 + 휴지 기간 넓은 분포(약 1주~1개월+) 명시 필요. **이중/방향성 source_repo 첫 사례(#121: astro 구현 → harness 기여)** — AGENTS.md source_repo 규약에 방향성 표기(`A (구현) → B (기여)`) 정식화 후보(단발, compile 1회). **harness 활성화 주기 박제 시점 재검토 신호** — 32~33차 "harness 신규 활동 정체"가 #121(harness upstream 기여 지향)로 반전 조짐, 단 구현은 astro라 순수 신규 활동 아님 — Z-패턴 Phase 2 실제 기여 여부 다음 배치 관찰(휴면 박제 판단 보류 연장). **sub-agent 클러스터 18노트 — 단독 1위 격차 +10** — 프로세스 라이프사이클(가드 A/B/C) + 대기 라이프사이클(가드 D, #121) 직교 2축 하위 구조 명시 후보, `subject-cluster:sub-agent` 박제 절대 시점 유지. **babylon/3D 렌더링 클러스터 4노트**(#119) — `subject-cluster:babylon-rendering` 라벨링 후보. **회고/retrospective 클러스터 누적 5노트 임계 접근** — `subject-cluster:retrospective` 박제 시점 임박. **AGENTS.md 박제 백로그 12건 적체** (33차 10건 + 이중 source_repo 방향성 표기 + sub-agent 하위 2축 구조 신규). 최우선: sub-agent 메타 분류 + astro 활성화 주기 + 캡처 휴지/즉시 정제 양면 운영 모드(**compile 충족 — 박제 착수 시점**).
+→ **Tier 1 자동화 검토 재개 임계 도달 유지** — 캡처량 트리거 + 정제 지연 트리거 2건 동시 충족. **`subject-cluster:retrospective` 박제 시점 도달 (6노트)** — 31차 임박(5노트) → 35차 #126 합류로 6노트, cross-validate(8)·ADR governance(8)·sub-agent(18) 다음 규모. 메타 분류 라벨 박제 최우선군 진입. **harness 활성화 주기 박제 방향 전환 — "휴면"에서 "감사 파생 주기적 기여"로** — 32~33차 "harness 휴면 박제 절대 시점"이 34차 #121 + 35차 #123~#126(harness-setting PR #319~#324 6건)로 반전. harness 독립 활동 정체 + 다운스트림 감사 파생 upstream 기여 활성의 비대칭이 새 박제 대상, 휴면 박제 보류 확정. **source_repo 다중/방향성 표기 정식화 시점 도달 (누적 4건: #121/#123/#124/#125)** — 34차 단발(compile 1회) → 35차 +3 반복, `A (구현/감사) → B (기여)` / `A / B#NNN` 다중 표기 정식화 착수 시점. **skills 계층 감사 클러스터 씨앗 (#124+#125 형제)** — AI 에이전트 환경 감사가 코드 감사와 별개 독립 축으로 정착, "가드 건강 ≠ 환경 건강" 외곽 부패 감사 반복 시 skills/settings/hooks drift 정형 클러스터 성장 가능. **양면 운영 모드(즉시 정제 vs 휴지+일괄) 교대 관찰 지속** — AGENTS.md 박제 시 교대 패턴 + 휴지 기간 넓은 분포(약 1주~1개월+) 명시. **sub-agent 클러스터 18노트 단독 1위 격차 +10** — 프로세스(가드 A/B/C) + 대기(가드 D) 직교 2축 하위 구조 명시 후보, `subject-cluster:sub-agent` 박제 절대 시점 유지. **독립 노트 5→4** — stack-pr-rebase-force-push 첫 링크 획득. **AGENTS.md 박제 백로그 13건+ 적체** (34차 12건 + retrospective 라벨[도달] + skills 계층 감사 클러스터[씨앗]). 최우선 재정렬: **retrospective 메타 분류(도달)** + sub-agent 메타 분류 + source_repo 다중 표기 정식화 + 캡처 휴지/즉시 정제 양면 운영 모드(compile 충족).
