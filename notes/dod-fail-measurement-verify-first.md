@@ -10,6 +10,7 @@ related:
   - ../meta/patterns/measurement-verify-step4-data-integrity.md
   - ./ssot-json-field-sign-misread.md
   - ./measurement-first-architect-dev-handoff.md
+  - ./measurement-first-ci-gate-orthogonal-metric.md
 ---
 
 ## 요약

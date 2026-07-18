@@ -4,14 +4,14 @@ type: knowledge
 source_repo: coseo12/astro-simulator (PR #859, 이슈 #853) / coseo12/harness-setting#319
 source_issue: 123
 captured_at: 2026-07-19
-status: inbox
+status: refined
 tags: [harness-update, manifest, divergent, silent-overwrite, z-pattern]
 related:
-  - ../notes/manifest-state-recovery-pattern.md
-  - ../notes/harness-frozen-file-split-pattern.md
-  - ../notes/adr-z-pattern-option-a-first-adoption.md
-  - ../notes/session-dead-wait-guard-3layer.md
-  - ../notes/ai-env-audit-7issue-z-pattern-cycle.md
+  - ./manifest-state-recovery-pattern.md
+  - ./harness-frozen-file-split-pattern.md
+  - ./adr-z-pattern-option-a-first-adoption.md
+  - ./session-dead-wait-guard-3layer.md
+  - ./ai-env-audit-7issue-z-pattern-cycle.md
 ---
 
 ## 요약

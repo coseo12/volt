@@ -14,6 +14,7 @@ related:
   - ../../notes/work-order-grep-backtick-fidelity.md
   - ../../notes/scattered-constant-data-meta-ssot.md
   - ../../notes/session-dead-wait-guard-3layer.md
+  - ../../notes/measurement-first-ci-gate-orthogonal-metric.md
 ---
 
 ## 배경/상황

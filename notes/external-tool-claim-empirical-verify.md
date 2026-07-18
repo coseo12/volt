@@ -15,6 +15,7 @@ related:
   - ./downstream-measurement-final-guard.md
   - ./cross-validate-dod-self-contradiction.md
   - ./cross-validate-plan-mode-bypass-guard.md
+  - ./skill-cli-snippet-empirical-check.md
 ---
 
 ## 요약

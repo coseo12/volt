@@ -16,6 +16,7 @@ related:
   - ./monorepo-core-dist-stale.md
   - ./roi-test-skip-judgment-drift.md
   - ./strict-assertion-vs-fallback-self-contradiction.md
+  - ./label-taxonomy-skills-layer-propagation.md
 ---
 
 ## 요약

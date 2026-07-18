@@ -8,6 +8,7 @@ status: refined
 tags: [agent-browser, headless, qa, console-spy, eval]
 related:
   - ./reviewer-qa-gate-skip-headless-self-pass.md
+  - ./skill-cli-snippet-empirical-check.md
 ---
 
 ## 요약

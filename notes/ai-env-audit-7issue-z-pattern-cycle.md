@@ -4,16 +4,16 @@ type: report
 source_repo: coseo12/astro-simulator
 source_issue: 126
 captured_at: 2026-07-19
-status: inbox
+status: refined
 tags: [ai-env-audit, multi-agent-fanout, z-pattern, upstream-contribution, pipeline]
 related:
-  - ../notes/adr-z-pattern-option-a-first-adoption.md
-  - ../notes/reviewer-cross-validate-5-step-loop.md
-  - ../notes/reviewer-qa-gate-skip-headless-self-pass.md
-  - ../notes/stack-pr-rebase-force-push.md
-  - ../notes/harness-update-rerun-divergent-overwrite.md
-  - ../notes/label-taxonomy-skills-layer-propagation.md
-  - ../notes/skill-cli-snippet-empirical-check.md
+  - ./adr-z-pattern-option-a-first-adoption.md
+  - ./reviewer-cross-validate-5-step-loop.md
+  - ./reviewer-qa-gate-skip-headless-self-pass.md
+  - ./stack-pr-rebase-force-push.md
+  - ./harness-update-rerun-divergent-overwrite.md
+  - ./label-taxonomy-skills-layer-propagation.md
+  - ./skill-cli-snippet-empirical-check.md
 ---
 
 ## 배경/상황

@@ -11,6 +11,7 @@ related:
   - ./ssot-tracking-zombie-external-orthogonal-guards.md
   - ../meta/patterns/regression-guard-3stage-simulation.md
   - ./adr-z-pattern-option-a-first-adoption.md
+  - ./harness-update-rerun-divergent-overwrite.md
 ---
 
 ## 요약

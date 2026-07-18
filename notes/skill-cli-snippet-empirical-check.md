@@ -4,14 +4,14 @@ type: knowledge
 source_repo: coseo12/astro-simulator (이슈 #856, PR #862) / coseo12/harness-setting#322
 source_issue: 125
 captured_at: 2026-07-19
-status: inbox
+status: refined
 tags: [skill-snippet, cli-version-drift, silent-no-op, always-warn, agent-browser]
 related:
-  - ../notes/agent-browser-eval-console-spy-limit.md
-  - ../notes/external-tool-claim-empirical-verify.md
+  - ./agent-browser-eval-console-spy-limit.md
+  - ./external-tool-claim-empirical-verify.md
   - ../meta/patterns/agent-browser-chrome-zombie-pattern.md
-  - ../notes/label-taxonomy-skills-layer-propagation.md
-  - ../notes/ai-env-audit-7issue-z-pattern-cycle.md
+  - ./label-taxonomy-skills-layer-propagation.md
+  - ./ai-env-audit-7issue-z-pattern-cycle.md
 ---
 
 ## 요약

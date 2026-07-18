@@ -13,6 +13,7 @@ related:
   - ../../notes/ssot-tracking-zombie-external-orthogonal-guards.md
   - ./closing-issues-references-empirical-verify.md
   - ../../notes/pgrep-af-self-match-false-positive.md
+  - ../../notes/skill-cli-snippet-empirical-check.md
 ---
 
 ## 배경/상황

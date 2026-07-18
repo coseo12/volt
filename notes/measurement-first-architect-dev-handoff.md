@@ -10,6 +10,7 @@ related:
   - ./dod-fail-measurement-verify-first.md
   - ../meta/patterns/measurement-verify-step4-data-integrity.md
   - ./debug-script-over-static-analysis.md
+  - ./measurement-first-ci-gate-orthogonal-metric.md
 ---
 
 ## 요약

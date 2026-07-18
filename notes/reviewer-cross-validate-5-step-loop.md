@@ -11,6 +11,7 @@ related:
   - ./cross-validate-accept-vs-defer.md
   - ../meta/patterns/phased-release-split-pattern.md
   - ../meta/patterns/sub-agent-finalization-miss-pattern.md
+  - ./ai-env-audit-7issue-z-pattern-cycle.md
 ---
 
 ## 배경/상황

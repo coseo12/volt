@@ -6,7 +6,8 @@ source_issue: 17
 captured_at: 2026-04-16
 status: refined
 tags: [github, pr-workflow, rebase, stack-pr]
-related: []
+related:
+  - ./ai-env-audit-7issue-z-pattern-cycle.md
 ---
 
 ## 배경/상황

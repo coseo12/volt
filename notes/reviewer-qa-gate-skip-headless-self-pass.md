@@ -17,6 +17,7 @@ related:
   - ./agent-browser-eval-console-spy-limit.md
   - ../meta/patterns/regression-guard-3stage-simulation.md
   - ./r4-amendment-rounds-fact-vs-perception.md
+  - ./ai-env-audit-7issue-z-pattern-cycle.md
 ---
 
 ## 배경/상황

@@ -4,12 +4,12 @@ type: knowledge
 source_repo: coseo12/astro-simulator (이슈 #854, PR #860) / coseo12/harness-setting#320
 source_issue: 124
 captured_at: 2026-07-19
-status: inbox
+status: refined
 tags: [label-taxonomy, skills-drift, layered-propagation, stage-labels]
 related:
-  - ../notes/comment-contract-implementation-drift.md
-  - ../notes/skill-cli-snippet-empirical-check.md
-  - ../notes/ai-env-audit-7issue-z-pattern-cycle.md
+  - ./comment-contract-implementation-drift.md
+  - ./skill-cli-snippet-empirical-check.md
+  - ./ai-env-audit-7issue-z-pattern-cycle.md
 ---
 
 ## 요약

@@ -9,6 +9,7 @@ tags: [harness-setting, ci, github-actions, frozen-file, managed-block, workflow
 related:
   - lint-staged-gitignore-silent-revert.md
   - https://github.com/coseo12/astro-simulator/pull/163
+  - ./harness-update-rerun-divergent-overwrite.md
 ---
 
 ## 요약

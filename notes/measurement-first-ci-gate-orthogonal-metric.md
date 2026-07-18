@@ -4,11 +4,11 @@ type: knowledge
 source_repo: coseo12/astro-simulator
 source_issue: 122
 captured_at: 2026-07-19
-status: inbox
+status: refined
 tags: [guard-design, measurement-first, fail-fast, ci-diagnostic, cross-validate, fps, headless-rendering]
 related:
-  - ../notes/measurement-first-architect-dev-handoff.md
-  - ../notes/dod-fail-measurement-verify-first.md
+  - ./measurement-first-architect-dev-handoff.md
+  - ./dod-fail-measurement-verify-first.md
   - ../meta/patterns/regression-guard-3stage-simulation.md
 ---
 

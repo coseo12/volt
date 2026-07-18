@@ -11,6 +11,8 @@ related:
   - ./silent-guard-relaxation-trade-off.md
   - ./adr-amendment-form-b-standard.md
   - ./session-dead-wait-guard-3layer.md
+  - ./harness-update-rerun-divergent-overwrite.md
+  - ./ai-env-audit-7issue-z-pattern-cycle.md
 ---
 
 ## 배경/상황

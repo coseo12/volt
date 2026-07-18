@@ -13,6 +13,7 @@ related:
   - ./release-pr-merge-strategy.md
   - ./release-version-metadata-drift-guard.md
   - ./monorepo-core-dist-stale.md
+  - ./harness-update-rerun-divergent-overwrite.md
 ---
 
 ## 요약
